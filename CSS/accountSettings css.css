@@ -1,0 +1,202 @@
+﻿* {
+    font-family: 'Fredoka', sans-serif;
+}
+/*
+body {
+    background: linear-gradient(177deg, rgba(255,255,255,1) 0%, rgba(108,116,221,1) 0%, rgba(66,49,185,1) 44%, rgba(43,18,120,1) 83%);
+}
+
+.gradient-custom {
+    background: white;
+    border: 1px solid black;
+    background: linear-gradient(177deg, rgba(255,255,255,1) 0%, rgba(108,116,221,1) 0%, rgba(66,49,185,1) 44%, rgba(43,18,120,1) 83%);
+}*/
+.row {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.container {
+    width: 100%;
+}
+
+.h3 {
+    color: rgba(66,49,185,1);
+    font-family: Fredoka, sans-serif;
+}
+
+.form-control {
+    border: 1px solid black;
+    width: 50%;
+}
+
+.genderlbl {
+    padding-right: 20px;
+}
+
+.form-check-input {
+    padding-right: 15px;
+}
+
+label {
+    font-weight: bold;
+    padding-left: 21%;
+}
+
+* {
+    font-family: 'Fredoka', sans-serif;
+    overflow-x: hidden;
+}
+/* The sidebar menu */
+.sidebar {
+    background: linear-gradient(177deg, rgba(255,255,255,1) 0%, rgba(108,116,221,1) 0%, rgba(66,49,185,1) 44%, rgba(43,18,120,1) 83%);
+    height: -webkit-fill-available;
+    width: 230px;
+    position: fixed;
+    z-index: 1;
+    top: -18px;
+    left: 0px;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+
+
+    /* The navigation menu links */
+    .sidebar a {
+        padding: 1px 30px 6px 40px;
+        font-size: 20px;
+        color: #cecfe8;
+        text-decoration: none;
+        display: block;
+    }
+
+.account a {
+    text-align: right;
+    font-family: 'Fredoka', sans-serif;
+    padding: 0px 20px 10px 0px !important;
+    position: absolute;
+    border: none;
+    font-size: 20px;
+    right: 0;
+    text-decoration: none;
+    bottom: 30px;
+    color: #cecfe8;
+    width: -webkit-fill-available;
+}
+
+.logout {
+    text-align: right;
+    font-family: 'Fredoka', sans-serif;
+    padding: 0px 20px 10px 0px !important;
+    position: absolute;
+    border: none;
+    font-size: 20px;
+    right: 0;
+    text-decoration: none;
+    bottom: 0;
+    color: #cecfe8;
+    width: -webkit-fill-available;
+    background-color: transparent;
+    border: none;
+    color: #cecfe8;
+}
+
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+.logout:hover {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+.content {
+    margin-left: 230px;
+}
+/* The sidebar menu */
+@media screen and (max-width: 768px) {
+    .sidebar {
+        display: flex;
+        justify-content: left;
+        height: auto;
+        width: auto;
+        position: relative;
+        z-index: 1;
+        top: -18px;
+        left: 0px;
+        overflow-x: hidden;
+        padding-top: 20px;
+    }
+
+
+        /* The navigation menu links */
+        .sidebar a {
+            padding: 5px 5px 5px 5px;
+            display: flex;
+            text-decoration: none;
+            font-size: 2vw;
+            color: #cecfe8;
+            font-family: 'Fredoka', sans-serif;
+        }
+
+    .content {
+        margin-left: auto;
+        overflow: hidden;
+        margin-top: -20px;
+    }
+
+    .account a {
+        text-align: right;
+        font-family: 'Fredoka', sans-serif;
+        padding: 0px 20px 10px 40px !important;
+        position: absolute;
+        border: none;
+        font-size: 20px;
+        right: 0;
+        text-decoration: none;
+        bottom: 30px;
+        color: #cecfe8;
+        width: -webkit-fill-available;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .logout {
+        text-align: right;
+        font-family: 'Fredoka', sans-serif;
+        padding: 0px 20px 10px 0px !important;
+        position: absolute;
+        border: none;
+        font-size: 20px;
+        right: 0;
+        text-decoration: none;
+        bottom: 0;
+        color: #cecfe8;
+        width: -webkit-fill-available;
+        background-color: transparent;
+        border: none;
+        color: #cecfe8;
+    }
+}
+
+#Button1 {
+    margin: -100px;
+}
+
+.back {
+    height: 15px;
+    width: 14px;
+}
+
+.row {
+    height: auto;
+}
+
+h1 {
+    font-weight: 600;
+}

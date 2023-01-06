@@ -1,0 +1,83 @@
+﻿* {
+    font-family: Fredoka, sans serif;
+    color: #242d3b;
+}
+body {
+    background-color: #fafbff;
+}
+
+hr {
+    width: 91%;
+    margin: auto;
+}
+
+.score_header {
+    font-size: 65px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.score_message {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-left: 65px;
+    margin-right: 65px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+.subDate {
+    margin-bottom: 20px;
+}
+
+.subScore {
+    margin-bottom: 20px;
+}
+
+row {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.loadButton {
+    margin: -70px;
+}
+
+.attemptRow {
+    width: 200px;
+    height: auto;
+    margin: auto;
+    width: 652px;
+    margin-bottom: 15px;
+}
+
+.attemptDate {
+    width: auto;
+    margin-left: 36px;
+    float: left;
+}
+
+.attemptScore {
+    float: left;
+    width: auto;
+    margin-left: 398px;
+}
+
+.attemptNone {
+    width: 200px;
+    height: auto;
+    margin: auto;
+    width: 652px;
+    margin-top: 25px;
+    text-align:center;
+}
+.past_attempts {
+    margin-top: 20px;
+}

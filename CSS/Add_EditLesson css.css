@@ -1,0 +1,62 @@
+﻿* {
+    font-family: Fredoka, sans serif;
+}
+
+.input_title {
+    height: 78px;
+    margin: 25px;
+    margin-bottom: 10px;
+    border-width: 0px;
+    width: -webkit-fill-available;
+    font-size: 50px;
+    border-radius: 15px;
+}
+.title {
+    margin: 30px;
+    height: auto;
+    background-color: #e1e7eb;
+    border-radius: 15px;
+}
+.placeholder {
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+.mid {
+    margin: 30px;
+    height: 350px;
+    background-color: #c7cdd1;
+    width: auto;
+    border-radius: 15px;
+}
+.cover {
+    border-radius: 15px;
+    margin: 25px;
+    width: 45%;
+    height: 83%;
+    float: left;
+    background-color: #fafbff;
+}
+.lesson {
+    border-radius: 15px;
+    margin: 25px;
+    float: left;
+    width: 45%;
+    height: 47%;
+    background-color: #fafbff;
+}
+.preview {
+    margin: 25px;
+    height: 200px;
+    width: -webkit-fill-available;
+    background-color: #c7cdd1;
+    border-radius: 15px;
+}
+.txt{
+    float: left;
+    margin: 5px;
+}
+.button {
+    
+    width: auto;
+    align-self:center;
+}

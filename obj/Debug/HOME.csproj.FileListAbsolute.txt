@@ -1,0 +1,991 @@
+C:\Users\xagde\source\repos\TechQue\HOME\bin\HOME.dll.config
+C:\Users\xagde\source\repos\TechQue\HOME\bin\HOME.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\HOME.pdb
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\csc.exe
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\csc.exe.config
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\csc.rsp
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\csi.exe
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\csi.exe.config
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\csi.rsp
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\System.AppContext.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\System.Console.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\System.IO.Compression.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\System.Net.Http.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\System.Net.Sockets.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\System.ValueTuple.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\System.Xml.XPath.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\vbc.exe
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\vbc.exe.config
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\vbc.rsp
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\VBCSCompiler.exe
+C:\Users\xagde\source\repos\TechQue\HOME\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\xagde\source\repos\TechQue\HOME\bin\Antlr3.Runtime.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\Newtonsoft.Json.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\System.Web.Optimization.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\WebGrease.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\System.Web.Optimization.xml
+C:\Users\xagde\source\repos\TechQue\HOME\bin\Newtonsoft.Json.xml
+C:\Users\xagde\source\repos\TechQue\HOME\bin\Antlr3.Runtime.pdb
+C:\Users\xagde\source\repos\TechQue\HOME\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\xagde\source\repos\TechQue\HOME\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\xagde\source\repos\TechQue\HOME\obj\Debug\HOME.csproj.AssemblyReference.cache
+C:\Users\xagde\source\repos\TechQue\HOME\obj\Debug\HOME.csproj.CoreCompileInputs.cache
+C:\Users\xagde\source\repos\TechQue\HOME\obj\Debug\HOME.csproj.CopyComplete
+C:\Users\xagde\source\repos\TechQue\HOME\obj\Debug\HOME.dll
+C:\Users\xagde\source\repos\TechQue\HOME\obj\Debug\HOME.pdb
+C:\Users\xagde\source\repos\TechQue\HOME\bin\BouncyCastle.Crypto.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\Google.Protobuf.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\K4os.Compression.LZ4.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\K4os.Compression.LZ4.Streams.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\K4os.Hash.xxHash.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\MySql.Data.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\System.Buffers.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\System.Memory.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\System.Numerics.Vectors.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\ZstdNet.dll
+C:\Users\xagde\source\repos\TechQue\HOME\bin\BouncyCastle.Crypto.xml
+C:\Users\xagde\source\repos\TechQue\HOME\bin\Google.Protobuf.pdb
+C:\Users\xagde\source\repos\TechQue\HOME\bin\Google.Protobuf.xml
+C:\Users\xagde\source\repos\TechQue\HOME\bin\K4os.Compression.LZ4.xml
+C:\Users\xagde\source\repos\TechQue\HOME\bin\K4os.Compression.LZ4.Streams.xml
+C:\Users\xagde\source\repos\TechQue\HOME\bin\K4os.Hash.xxHash.xml
+C:\Users\xagde\source\repos\TechQue\HOME\bin\MySql.Data.xml
+C:\Users\xagde\source\repos\TechQue\HOME\bin\System.Buffers.xml
+C:\Users\xagde\source\repos\TechQue\HOME\bin\System.Memory.xml
+C:\Users\xagde\source\repos\TechQue\HOME\bin\System.Numerics.Vectors.xml
+C:\Users\xagde\source\repos\TechQue\HOME\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\HOME.dll.config
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\HOME.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\HOME.pdb
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\csc.exe
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\csc.exe.config
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\csc.rsp
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\csi.exe
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\csi.exe.config
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\csi.rsp
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\System.AppContext.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\System.Console.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\System.IO.Compression.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\System.Net.Http.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\System.Net.Sockets.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\System.ValueTuple.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\System.Xml.XPath.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\vbc.exe
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\vbc.exe.config
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\vbc.rsp
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\VBCSCompiler.exe
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\Antlr3.Runtime.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\BouncyCastle.Crypto.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\Google.Protobuf.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\K4os.Compression.LZ4.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\K4os.Compression.LZ4.Streams.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\K4os.Hash.xxHash.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\MySql.Data.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\Newtonsoft.Json.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\System.Buffers.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\System.Memory.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\System.Numerics.Vectors.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\System.Web.Optimization.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\WebGrease.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\ZstdNet.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\BouncyCastle.Crypto.xml
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\Google.Protobuf.pdb
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\Google.Protobuf.xml
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\K4os.Compression.LZ4.xml
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\K4os.Compression.LZ4.Streams.xml
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\K4os.Hash.xxHash.xml
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\MySql.Data.xml
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\System.Buffers.xml
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\System.Memory.xml
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\System.Numerics.Vectors.xml
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\System.Web.Optimization.xml
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\Newtonsoft.Json.xml
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\Antlr3.Runtime.pdb
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\obj\Debug\HOME.csproj.AssemblyReference.cache
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\obj\Debug\HOME.csproj.CoreCompileInputs.cache
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\obj\Debug\HOME.csproj.CopyComplete
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\obj\Debug\HOME.dll
+C:\Users\DENZIL\eclipse-workspace\TechQue\HOME\obj\Debug\HOME.pdb
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\HOME.dll.config
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\HOME.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\HOME.pdb
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\csc.exe
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\csc.exe.config
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\csc.rsp
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\csi.exe
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\csi.exe.config
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\csi.rsp
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\System.AppContext.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\System.Console.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\System.IO.Compression.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\System.Net.Http.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\System.Net.Sockets.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\System.ValueTuple.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\System.Xml.XPath.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\vbc.exe
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\vbc.exe.config
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\vbc.rsp
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\VBCSCompiler.exe
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\Antlr3.Runtime.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\BouncyCastle.Crypto.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\Google.Protobuf.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\K4os.Compression.LZ4.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\K4os.Compression.LZ4.Streams.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\K4os.Hash.xxHash.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\MySql.Data.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\Newtonsoft.Json.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\System.Buffers.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\System.Memory.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\System.Numerics.Vectors.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\System.Web.Optimization.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\WebGrease.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\ZstdNet.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\BouncyCastle.Crypto.xml
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\Google.Protobuf.pdb
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\Google.Protobuf.xml
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\K4os.Compression.LZ4.xml
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\K4os.Compression.LZ4.Streams.xml
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\K4os.Hash.xxHash.xml
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\MySql.Data.xml
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\System.Buffers.xml
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\System.Memory.xml
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\System.Numerics.Vectors.xml
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\System.Web.Optimization.xml
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\Newtonsoft.Json.xml
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\Antlr3.Runtime.pdb
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\DENZIL\source\repos\TechQue\HOME\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\DENZIL\source\repos\TechQue\HOME\obj\Debug\HOME.csproj.AssemblyReference.cache
+C:\Users\DENZIL\source\repos\TechQue\HOME\obj\Debug\HOME.csproj.CoreCompileInputs.cache
+C:\Users\DENZIL\source\repos\TechQue\HOME\obj\Debug\HOME.csproj.CopyComplete
+C:\Users\DENZIL\source\repos\TechQue\HOME\obj\Debug\HOME.dll
+C:\Users\DENZIL\source\repos\TechQue\HOME\obj\Debug\HOME.pdb
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\HOME.dll.config
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\HOME.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\HOME.pdb
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\csc.exe
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\csc.exe.config
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\csc.rsp
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\csi.exe
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\csi.exe.config
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\csi.rsp
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\System.AppContext.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\System.Console.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\System.IO.Compression.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\System.Net.Http.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\System.Net.Sockets.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\System.ValueTuple.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\System.Xml.XPath.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\vbc.exe
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\vbc.exe.config
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\vbc.rsp
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\VBCSCompiler.exe
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\Antlr3.Runtime.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\BouncyCastle.Crypto.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\Google.Protobuf.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\K4os.Compression.LZ4.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\K4os.Compression.LZ4.Streams.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\K4os.Hash.xxHash.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\MySql.Data.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\Newtonsoft.Json.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\System.Buffers.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\System.Memory.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\System.Numerics.Vectors.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\System.Web.Optimization.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\WebGrease.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\ZstdNet.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\BouncyCastle.Crypto.xml
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\Google.Protobuf.pdb
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\Google.Protobuf.xml
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\K4os.Compression.LZ4.xml
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\K4os.Compression.LZ4.Streams.xml
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\K4os.Hash.xxHash.xml
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\MySql.Data.xml
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\System.Buffers.xml
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\System.Memory.xml
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\System.Numerics.Vectors.xml
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\System.Web.Optimization.xml
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\Newtonsoft.Json.xml
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\Antlr3.Runtime.pdb
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\xagde\Desktop\TECHQUE\HOME\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\xagde\Desktop\TECHQUE\HOME\obj\Debug\HOME.csproj.AssemblyReference.cache
+C:\Users\xagde\Desktop\TECHQUE\HOME\obj\Debug\HOME.csproj.CoreCompileInputs.cache
+C:\Users\xagde\Desktop\TECHQUE\HOME\obj\Debug\HOME.csproj.CopyComplete
+C:\Users\xagde\Desktop\TECHQUE\HOME\obj\Debug\HOME.dll
+C:\Users\xagde\Desktop\TECHQUE\HOME\obj\Debug\HOME.pdb
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\HOME.dll.config
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\HOME.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\HOME.pdb
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\csc.exe
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\csc.exe.config
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\csc.rsp
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\csi.exe
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\csi.exe.config
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\csi.rsp
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\System.AppContext.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\System.Console.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\System.IO.Compression.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\System.Net.Http.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\System.Net.Sockets.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\System.ValueTuple.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\System.Xml.XPath.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\vbc.exe
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\vbc.exe.config
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\vbc.rsp
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\VBCSCompiler.exe
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\Antlr3.Runtime.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\BouncyCastle.Crypto.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\Google.Protobuf.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\K4os.Compression.LZ4.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\K4os.Compression.LZ4.Streams.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\K4os.Hash.xxHash.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\MySql.Data.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\Newtonsoft.Json.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\System.Buffers.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\System.Memory.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\System.Numerics.Vectors.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\System.Web.Optimization.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\WebGrease.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\ZstdNet.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\BouncyCastle.Crypto.xml
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\Google.Protobuf.pdb
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\Google.Protobuf.xml
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\K4os.Compression.LZ4.xml
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\K4os.Compression.LZ4.Streams.xml
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\K4os.Hash.xxHash.xml
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\MySql.Data.xml
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\System.Buffers.xml
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\System.Memory.xml
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\System.Numerics.Vectors.xml
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\System.Web.Optimization.xml
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\Newtonsoft.Json.xml
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\Antlr3.Runtime.pdb
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\obj\Debug\HOME.csproj.AssemblyReference.cache
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\obj\Debug\HOME.csproj.CoreCompileInputs.cache
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\obj\Debug\HOME.csproj.CopyComplete
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\obj\Debug\HOME.dll
+C:\Users\xagde\Desktop\TECHQUE 2\HOME\obj\Debug\HOME.pdb
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\HOME.dll.config
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\HOME.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\HOME.pdb
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\csc.exe
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\csc.exe.config
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\csc.rsp
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\csi.exe
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\csi.exe.config
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\csi.rsp
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\System.AppContext.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\System.Console.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\System.IO.Compression.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\System.Net.Http.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\System.Net.Sockets.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\System.ValueTuple.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\System.Xml.XPath.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\vbc.exe
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\vbc.exe.config
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\vbc.rsp
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\VBCSCompiler.exe
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\Antlr3.Runtime.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\BouncyCastle.Crypto.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\Google.Protobuf.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\K4os.Compression.LZ4.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\K4os.Compression.LZ4.Streams.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\K4os.Hash.xxHash.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\MySql.Data.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\Newtonsoft.Json.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\System.Buffers.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\System.Memory.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\System.Numerics.Vectors.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\System.Web.Optimization.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\WebGrease.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\ZstdNet.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\BouncyCastle.Crypto.xml
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\Google.Protobuf.pdb
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\Google.Protobuf.xml
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\K4os.Compression.LZ4.xml
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\K4os.Compression.LZ4.Streams.xml
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\K4os.Hash.xxHash.xml
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\MySql.Data.xml
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\System.Buffers.xml
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\System.Memory.xml
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\System.Numerics.Vectors.xml
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\System.Web.Optimization.xml
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\Newtonsoft.Json.xml
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\Antlr3.Runtime.pdb
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\obj\Debug\HOME.csproj.AssemblyReference.cache
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\obj\Debug\HOME.csproj.CoreCompileInputs.cache
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\obj\Debug\HOME.csproj.CopyComplete
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\obj\Debug\HOME.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\obj\Debug\HOME.pdb
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\DocumentFormat.OpenXml.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\OpenXmlPowerTools.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\System.IO.Packaging.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\System.Management.Automation.dll
+C:\Users\DENZIL\source\repos\TECHQUE 2\HOME\bin\DocumentFormat.OpenXml.xml
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\HOME.dll.config
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\HOME.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\HOME.pdb
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\csc.exe
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\csc.exe.config
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\csc.rsp
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\csi.exe
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\csi.exe.config
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\csi.rsp
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\System.AppContext.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\System.Console.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\System.IO.Compression.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\System.Net.Http.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\System.Net.Sockets.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\System.ValueTuple.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\System.Xml.XPath.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\vbc.exe
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\vbc.exe.config
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\vbc.rsp
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\VBCSCompiler.exe
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\Antlr3.Runtime.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\BouncyCastle.Crypto.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\DocumentFormat.OpenXml.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\Google.Protobuf.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\K4os.Compression.LZ4.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\K4os.Compression.LZ4.Streams.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\K4os.Hash.xxHash.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\MySql.Data.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\Newtonsoft.Json.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\OpenXmlPowerTools.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\System.Buffers.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\System.IO.Packaging.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\System.Management.Automation.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\System.Memory.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\System.Numerics.Vectors.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\System.Web.Optimization.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\WebGrease.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\ZstdNet.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\BouncyCastle.Crypto.xml
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\DocumentFormat.OpenXml.xml
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\Google.Protobuf.pdb
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\Google.Protobuf.xml
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\K4os.Compression.LZ4.xml
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\K4os.Compression.LZ4.Streams.xml
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\K4os.Hash.xxHash.xml
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\MySql.Data.xml
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\System.Buffers.xml
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\System.Memory.xml
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\System.Numerics.Vectors.xml
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\System.Web.Optimization.xml
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\Newtonsoft.Json.xml
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\Antlr3.Runtime.pdb
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\obj\Debug\HOME.csproj.AssemblyReference.cache
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\obj\Debug\HOME.csproj.CoreCompileInputs.cache
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\obj\Debug\HOME.csproj.CopyComplete
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\obj\Debug\HOME.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\obj\Debug\HOME.pdb
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\MachineIdentityObjectModel.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.5\HOME\bin\microsoft.identitymodel.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\HOME.dll.config
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\HOME.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\HOME.pdb
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\csc.exe
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\csc.exe.config
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\csc.rsp
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\csi.exe
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\csi.exe.config
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\csi.rsp
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\System.AppContext.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Console.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\System.IO.Compression.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Net.Http.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Net.Sockets.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\System.ValueTuple.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Xml.XPath.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\vbc.exe
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\vbc.exe.config
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\vbc.rsp
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\VBCSCompiler.exe
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\Antlr3.Runtime.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\BouncyCastle.Crypto.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\DocumentFormat.OpenXml.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\Google.Protobuf.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\K4os.Compression.LZ4.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\K4os.Compression.LZ4.Streams.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\K4os.Hash.xxHash.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\MachineIdentityObjectModel.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\microsoft.identitymodel.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\MySql.Data.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\Newtonsoft.Json.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\OpenXmlPowerTools.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\System.Buffers.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\System.IO.Packaging.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\System.Management.Automation.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\System.Memory.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\System.Numerics.Vectors.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\System.Web.Optimization.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\WebGrease.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\ZstdNet.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\BouncyCastle.Crypto.xml
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\DocumentFormat.OpenXml.xml
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\Google.Protobuf.pdb
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\Google.Protobuf.xml
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\K4os.Compression.LZ4.xml
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\K4os.Compression.LZ4.Streams.xml
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\K4os.Hash.xxHash.xml
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\MySql.Data.xml
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\System.Buffers.xml
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\System.Memory.xml
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\System.Numerics.Vectors.xml
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\System.Web.Optimization.xml
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\Newtonsoft.Json.xml
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\Antlr3.Runtime.pdb
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\obj\Debug\HOME.csproj.AssemblyReference.cache
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\obj\Debug\HOME.csproj.CoreCompileInputs.cache
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\obj\Debug\HOME.csproj.CopyComplete
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\obj\Debug\HOME.dll
+C:\Users\xagde\Desktop\TECHQUE 2- 2.6\HOME\obj\Debug\HOME.pdb
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\HOME.dll.config
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\HOME.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\HOME.pdb
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\csc.exe
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\csc.exe.config
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\csc.rsp
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\csi.exe
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\csi.exe.config
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\csi.rsp
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\System.AppContext.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Console.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\System.IO.Compression.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Net.Http.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Net.Sockets.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\System.ValueTuple.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Xml.XPath.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\vbc.exe
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\vbc.exe.config
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\vbc.rsp
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\VBCSCompiler.exe
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\Antlr3.Runtime.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\BouncyCastle.Crypto.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\DocumentFormat.OpenXml.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\Google.Protobuf.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\K4os.Compression.LZ4.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\K4os.Compression.LZ4.Streams.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\K4os.Hash.xxHash.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\microsoft.identitymodel.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\MySql.Data.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\Newtonsoft.Json.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\OpenXmlPowerTools.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\System.Buffers.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\System.IO.Packaging.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\System.Management.Automation.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\System.Memory.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\System.Numerics.Vectors.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\System.Web.Optimization.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\WebGrease.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\ZstdNet.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\BouncyCastle.Crypto.xml
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\DocumentFormat.OpenXml.xml
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\Google.Protobuf.pdb
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\Google.Protobuf.xml
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\K4os.Compression.LZ4.xml
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\K4os.Compression.LZ4.Streams.xml
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\K4os.Hash.xxHash.xml
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\MySql.Data.xml
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\System.Buffers.xml
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\System.Memory.xml
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\System.Numerics.Vectors.xml
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\System.Web.Optimization.xml
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\Newtonsoft.Json.xml
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\Antlr3.Runtime.pdb
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\obj\Debug\HOME.csproj.AssemblyReference.cache
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\obj\Debug\HOME.csproj.CoreCompileInputs.cache
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\obj\Debug\HOME.csproj.CopyComplete
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\obj\Debug\HOME.dll
+C:\Users\CCS-2022\Downloads\TECHQUE present\TECHQUE 2- 2.6\HOME\obj\Debug\HOME.pdb
+E:\Work\TECHQUE 2- 2.6\HOME\bin\HOME.dll.config
+E:\Work\TECHQUE 2- 2.6\HOME\bin\HOME.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\HOME.pdb
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\csc.exe
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\csc.exe.config
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\csc.rsp
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\csi.exe
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\csi.exe.config
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\csi.rsp
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\System.AppContext.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Collections.Immutable.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Console.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Globalization.Calendars.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\System.IO.Compression.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\System.IO.FileSystem.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Net.Http.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Net.Sockets.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Reflection.Metadata.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\System.ValueTuple.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Xml.XPath.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\vbc.exe
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\vbc.exe.config
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\vbc.rsp
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\VBCSCompiler.exe
+E:\Work\TECHQUE 2- 2.6\HOME\bin\roslyn\VBCSCompiler.exe.config
+E:\Work\TECHQUE 2- 2.6\HOME\bin\Antlr3.Runtime.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\AspNet.ScriptManager.bootstrap.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\AspNet.ScriptManager.jQuery.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\BouncyCastle.Crypto.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\DocumentFormat.OpenXml.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\Google.Protobuf.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\K4os.Compression.LZ4.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\K4os.Compression.LZ4.Streams.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\K4os.Hash.xxHash.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\microsoft.identitymodel.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\Microsoft.ScriptManager.WebForms.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\Microsoft.Web.Infrastructure.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\MySql.Data.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\Newtonsoft.Json.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\OpenXmlPowerTools.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\System.Buffers.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\System.IO.Packaging.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\System.Management.Automation.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\System.Memory.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\System.Numerics.Vectors.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\System.Web.Optimization.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\WebGrease.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\ZstdNet.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\BouncyCastle.Crypto.xml
+E:\Work\TECHQUE 2- 2.6\HOME\bin\DocumentFormat.OpenXml.xml
+E:\Work\TECHQUE 2- 2.6\HOME\bin\Google.Protobuf.pdb
+E:\Work\TECHQUE 2- 2.6\HOME\bin\Google.Protobuf.xml
+E:\Work\TECHQUE 2- 2.6\HOME\bin\K4os.Compression.LZ4.xml
+E:\Work\TECHQUE 2- 2.6\HOME\bin\K4os.Compression.LZ4.Streams.xml
+E:\Work\TECHQUE 2- 2.6\HOME\bin\K4os.Hash.xxHash.xml
+E:\Work\TECHQUE 2- 2.6\HOME\bin\MySql.Data.xml
+E:\Work\TECHQUE 2- 2.6\HOME\bin\System.Buffers.xml
+E:\Work\TECHQUE 2- 2.6\HOME\bin\System.Memory.xml
+E:\Work\TECHQUE 2- 2.6\HOME\bin\System.Numerics.Vectors.xml
+E:\Work\TECHQUE 2- 2.6\HOME\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\Work\TECHQUE 2- 2.6\HOME\bin\System.Web.Optimization.xml
+E:\Work\TECHQUE 2- 2.6\HOME\bin\Newtonsoft.Json.xml
+E:\Work\TECHQUE 2- 2.6\HOME\bin\Antlr3.Runtime.pdb
+E:\Work\TECHQUE 2- 2.6\HOME\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\Work\TECHQUE 2- 2.6\HOME\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Work\TECHQUE 2- 2.6\HOME\obj\Debug\HOME.csproj.AssemblyReference.cache
+E:\Work\TECHQUE 2- 2.6\HOME\obj\Debug\HOME.csproj.CoreCompileInputs.cache
+E:\Work\TECHQUE 2- 2.6\HOME\obj\Debug\HOME.csproj.CopyComplete
+E:\Work\TECHQUE 2- 2.6\HOME\obj\Debug\HOME.dll
+E:\Work\TECHQUE 2- 2.6\HOME\obj\Debug\HOME.pdb

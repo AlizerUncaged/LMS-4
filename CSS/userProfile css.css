@@ -1,0 +1,33 @@
+﻿* {
+    font-family: 'Fredoka', sans-serif;
+}
+/*
+body {
+    background: linear-gradient(177deg, rgba(255,255,255,1) 0%, rgba(108,116,221,1) 0%, rgba(66,49,185,1) 44%, rgba(43,18,120,1) 83%);
+}
+
+.gradient-custom {
+    background: white;
+    border: 1px solid black;
+    background: linear-gradient(177deg, rgba(255,255,255,1) 0%, rgba(108,116,221,1) 0%, rgba(66,49,185,1) 44%, rgba(43,18,120,1) 83%);
+}*/
+.row {
+    margin-right: 15px;
+    margin-left: 15px
+}
+.h3 {
+    color: rgba(66,49,185,1);
+    font-family: Fredoka, sans-serif;
+}
+
+.form-control {
+    border: 1px solid black;
+}
+
+.genderlbl {
+    padding-right: 20px;
+}
+
+.form-check-input {
+    padding-right: 15px;
+}

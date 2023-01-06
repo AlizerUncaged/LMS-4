@@ -1,0 +1,135 @@
+﻿
+.home {
+    overflow:hidden;
+    margin: 0px;
+    background-color: #fafbff;
+    width: -webkit-fill-available;
+    height: 100%;
+}
+
+h1 {
+    font-size: 65px;
+    padding-top: 30px;
+    margin-left: 176px;
+    margin-right: 44px;
+    overflow-x: clip;
+}
+h2 {
+    font-size: 30px;
+    padding-top: 8px;
+    margin-left: 193px;
+    margin-right: 44px;
+    overflow-x: clip;
+}
+
+.header-grad {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 343px; /* Full-height: remove this if you want "auto" height */
+    width: 985px; /* Set the width of the sidebar */
+    background-image: url('../images/header-gradi.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: Fredoka, sans serif;
+}
+.header{
+    text-align: center;
+    font-size: 30px;
+}
+hr {
+    width: 100%;
+    margin:0px;
+}
+
+i.fa-solid fa-arrow-right {
+    font-size: 20px;
+}
+
+div.category {
+    width: 900px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    font-family: Fredoka, sans serif;
+    font-weight: 500;
+    color: #242d3b;
+}
+
+div.quizTopicSec {
+    height: 100%;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+div.quizTopic {
+    border-radius: 17px;
+    background-color: bisque;
+    margin-top: 15px;
+    margin-right: 32px;
+    width: 35%;
+    height: 80%;
+    font-size: 35px;
+    font-family: Fredoka, sans serif;
+    font-weight: 500;
+    color: #242d3b;
+    border: 2px solid gray;
+    display: inline-block;
+}
+
+div.quizTopicCover {
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    height: 123.5px;
+}
+
+div.quizTopicTitle {
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+@media screen and (max-width: 768px) {
+    .home {
+        overflow: hidden;
+        margin: 0px;
+        background-color: #fafbff;
+        width: -webkit-fill-available;
+        height: 100%;
+    }
+    .header-grad {
+        overflow: hidden;
+        height: 150px;
+        width: 90%;
+        background-repeat: no-repeat;
+        background-image: url('../images/header-gradi.png');
+        background-size: contain;
+    }
+    i.fa-arrow-right::before {
+        font-size: 2vw;
+    }
+
+    div.category {
+        width: 85%;
+        height: 120px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 3vw;
+        font-family: Fredoka, sans serif;
+        font-weight: 500;
+        color: #242d3b;
+    }
+    div.quizTopicTitle {
+        font-size: 3vw;
+    }
+    hr {
+        width: 100%;
+        margin:0px;
+    }
+    }

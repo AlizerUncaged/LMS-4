@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMasterPage.Master.cs" Inherits="HOME.AdminMasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>TECHQUE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="datatables/datatables.min.css" rel="stylesheet" />
+    <link href="fontawesome-free-6.2.1-web/css/all.css" rel="stylesheet" />
+    <link href="CSS/AdminMasterPage%20css.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server" >
+        <div class = "sidebar">
+            <a href="AdminHomePage.aspx">Quizzes</a>
+            <a href="AdminCategoryPage.aspx">Lessons</a>
+            <a href="#">Students</a>
+            <a href="#">Account Settings</a>
+            <div class ="account">
+
+            <a class ="userLogged" href="userProfile.aspx" ><%=Session["firstname"]%> </a>
+           
+            <asp:Button runat="server" CssClass ="logout" class="logout" Text="Sign Out" id="logout" onClick="signout_Click"></asp:Button>
+            </div>
+        </div>
+       
+        
+        
+        <div class ="content">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

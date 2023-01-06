@@ -1,0 +1,76 @@
+﻿
+* {
+    font-family: fredoka;
+}
+
+.header-grad {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Fredoka, sans serif;
+    height: 122px;
+    width: 1001px;
+    background-image: url(../images/headert.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoGrid {
+    font-size: 25px;
+    font-family: fredoka;
+    width: 400px;
+    height: 230px;
+}
+
+    .infoGrid * {
+        border: 1px solid black;
+    }
+
+.lblname {
+    font-size: 18px;
+}
+
+.printBtn {
+    margin-top: 25px;
+    height: 60px;
+    width: 90px;
+}
+
+.loadButton{
+    margin:-70px
+}
+.loadButton2 {
+    margin: -70px
+}
+
+@media screen and (max-width: 768px) {
+
+
+    .header-grad {
+        overflow: hidden;
+        height: 150px;
+        width: 90%;
+        background-repeat: no-repeat;
+        background-image: url('../images/header-gradi.png');
+        background-size: contain;
+    }
+}
+
+@media print {
+
+    .DivToPrint:not(body) {
+        display: none;
+    }
+
+    .printBtn {
+        display: none;
+    }
+
+    .DivToPrint {
+        height: 700px;
+        width: 700px;
+    }
+}
