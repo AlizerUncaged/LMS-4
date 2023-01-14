@@ -6,10 +6,10 @@
 <head runat="server">
     <title>TECHQUE</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="datatables/datatables.min.css" rel="stylesheet" />
-    <link href="fontawesome-free-6.2.1-web/css/all.css" rel="stylesheet" />
-    <link href="CSS/AdminMasterPage%20css.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="datatables/datatables.min.css" rel="stylesheet"/>
+    <link href="fontawesome-free-6.2.1-web/css/all.css" rel="stylesheet"/>
+    <link href="CSS/AdminMasterPage%20css.css" rel="stylesheet"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -21,26 +21,40 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form id="form1" runat="server" >
-        <div class = "sidebar">
-            <a href="AdminHomePage.aspx">Quizzes</a>
-            <a href="AdminCategoryPage.aspx">Lessons</a>
-            <a href="#">Students</a>
-            <a href="#">Account Settings</a>
-            <div class ="account">
+<form id="form1" runat="server">
+    <div class="sidebar">
+        <h2 class="text-light mt-4 ml-4 mr-4">
+            <%
+                string pfpUrl = "/images/user.png";
 
-            <a class ="userLogged" href="userProfile.aspx" ><%=Session["firstname"]%> </a>
-           
-            <asp:Button runat="server" CssClass ="logout" class="logout" Text="Sign Out" id="logout" onClick="signout_Click"></asp:Button>
-            </div>
+                if (Session["pfpUrl"] != null && Session["pfpUrl"] != DBNull.Value)
+                {
+                    pfpUrl = (string)Session["pfpUrl"];
+                }
+
+                Console.WriteLine(pfpUrl);
+            %>
+            <img src="<%= HttpUtility.HtmlDecode(pfpUrl) %>" class="rounded-circle img-fluid" alt="" style="border: 1px solid #ddd;
+                                                                                            border-radius: 4px; padding: 5px; width: 150px; height: 150px";/>Welcome, <%= Session["firstname"] %>!
+        </h2>
+        <p class="text-light mb-2 mr-4 ml-4" style="opacity: 0.5;">Administrator</p>
+        <a href="AdminHomePage.aspx">Quizzes</a>
+        <a href="AdminCategoryPage.aspx">Lessons</a>
+        <a href="#">Students</a>
+        <a href="userProfile.aspx">Account Settings</a>
+        <div class="account">
+
+            <%-- <a class ="userLogged" href="userProfile.aspx" > </a> --%>
+
+            <asp:Button runat="server" CssClass="logout" class="logout" Text="Sign Out" id="logout" onClick="signout_Click"></asp:Button>
         </div>
-       
-        
-        
-        <div class ="content">
+    </div>
+
+
+    <div class="content">
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         </asp:ContentPlaceHolder>
-        </div>
-    </form>
+    </div>
+</form>
 </body>
 </html>

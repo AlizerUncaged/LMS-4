@@ -21,8 +21,26 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
+
     <form id="form1" runat="server" >
         <div class = "sidebar">
+            
+        <h2 class="text-light mt-4 ml-4 mr-4">
+            <%
+                      string pfpUrl = "/images/user.png";
+                      
+                      if (Session["pfpUrl"] != null && Session["pfpUrl"] != DBNull.Value)
+                      {
+                          pfpUrl = (string)Session["pfpUrl"];
+                      }
+                      
+                      Console.WriteLine(pfpUrl);
+            %>
+             <img src="<%= HttpUtility.HtmlDecode(pfpUrl) %>" class="rounded-circle img-fluid" alt="" style="border: 1px solid #ddd;
+                                             border-radius: 4px; padding: 5px; width: 150px; height: 150px";/>
+            Welcome, <%= Session["firstname"] %>!
+        </h2>
+        <p class="text-light mb-2 mr-4 ml-4" style="opacity: 0.5;">Student</p>
             <a href="HOMEPAGE.aspx">Home</a>
             <a href="HOMEPAGE.aspx#quiz-sec">Quizzes</a>
             <a href="CategoryPage.aspx">Lessons</a>
@@ -30,10 +48,11 @@
             <a href="#">Certificates</a>
             <a href="userProfile.aspx">Profile</a>
             <a href="accountSettings.aspx">Account Settings</a>
+            <a href="userProfile.aspx">User Profile</a>
             <a href="aboutUs.aspx">About</a>
             <div class ="account">
 
-            <a class ="userLogged" href="userProfile.aspx" ><%=Session["firstname"]%> <%=Session["lastname"]%> </a>
+            <%-- <a class ="userLogged" href="userProfile.aspx" ><%=Session["firstname"]%> <%=Session["lastname"]%> </a> --%>
            
             <asp:Button runat="server" CssClass ="logout" class="logout" Text="Sign Out" id="logout" onClick="signout_Click"></asp:Button>
             </div>
