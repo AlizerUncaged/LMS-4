@@ -27,12 +27,12 @@ namespace HOME
             items = Convert.ToInt32(all);
             intqid = Request.QueryString["QuizID"].ToString();
             scoreheader = "You scored: " + score + "/" + items;
-            MySqlConnection DBCon = new MySqlConnection("Data Source = localhost; username=root; password=; database=techque_db;");
-            DBCon.Open(); 
+           
+            var DBCon = Handlers.SqlInstance.Instance;
+
             MySqlCommand cmd = new MySqlCommand("INSERT INTO quizattempts(`quiz_id`,`userid`,`score`,`items`,`date`) " + "VALUES(" + intqid + ", " + userid + ", " + score + ", " + items + ", '" + datetime + "')", DBCon);
             //MySqlCommand cmd = new MySqlCommand("INSERT INTO `quizattempts`(`quiz_id`,`userid,`score`,`items`,`date`) "+"VALUES("+intqid+", " + userid +", "+score+", "+items+", '"+datetime+"')", DBCon);
             cmd.ExecuteNonQuery();
-            DBCon.Close();
             MySqlCommand cmd2 = new MySqlCommand("Select * FROM quizattempts WHERE quiz_id ='" + intqid + "' AND userid ='" + Session["id"].ToString() + "'", DBCon);
             MySqlDataAdapter adapt2 = new MySqlDataAdapter(cmd2);
             DataTable dtAttempts = new DataTable();

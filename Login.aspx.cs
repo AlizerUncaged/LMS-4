@@ -11,11 +11,6 @@ namespace HOME
 {
     public partial class Login : System.Web.UI.Page
     {
-        MySqlConnection DBCon =
-            new MySqlConnection("Data Source = localhost; username=root; password=; database=techque_db");
-
-        MySqlConnection DBCon2 =
-            new MySqlConnection("Data Source = localhost; username=root; password=; database=techque_db");
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -23,17 +18,17 @@ namespace HOME
 
         protected void Button1_Click(object sender, EventArgs e)
         {
+            
+            var DBCon = Handlers.SqlInstance.Instance;
+            var DBCon2 = Handlers.SqlInstance.Instance;
             MySqlCommand cmd =
                 new MySqlCommand(
                     "Select * FROM `users` WHERE email ='" + textusername.Text + "' AND password ='" + textpass.Text +
                     "'", DBCon);
             MySqlDataAdapter adapt = new MySqlDataAdapter(cmd);
             DataTable DT = new DataTable();
-            DataTable DT2 = new DataTable();
             adapt.Fill(DT);
-
-            DBCon.Open();
-            DBCon2.Open();
+            
 
             if (DT.Rows.Count > 0) // user
             {
@@ -61,6 +56,8 @@ namespace HOME
                     textpass.Text + "'", DBCon2);
             
             MySqlDataAdapter adapt2 = new MySqlDataAdapter(cmd2);
+            
+            DataTable DT2 = new DataTable();
             
             adapt2.Fill(DT2);
             

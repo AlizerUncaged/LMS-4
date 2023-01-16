@@ -2,7 +2,13 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <html>
-    <link href="CSS/HOMEPAGE%20css.css?v=23" rel="stylesheet"/>
+    <link href="CSS/HOMEPAGE%20css.css?v=24" rel="stylesheet"/>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <div class="home">
         <div class="header-grad">
             <center>
@@ -25,7 +31,14 @@
             localStorage.setItem("quizCategory", clicked_id);
             location.href = "QuizCategoryPage.aspx";
         }
+        
+        const swiper = new Swiper('.swiper', {
+          // Optional parameters
+          direction: 'horizontal',
+          loop: false,
+        });
     </script>
+    
     </html>
 
 </asp:Content>

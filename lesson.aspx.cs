@@ -19,7 +19,6 @@ namespace HOME
    
     public partial class WebForm8 : System.Web.UI.Page
     {
-        public string connectionString = "Data Source = localhost; username=root; password=; database=techque_db";
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -109,9 +108,7 @@ namespace HOME
             byte[] docxData = null;
 
            
-            using (MySqlConnection connection = new MySqlConnection(connectionString))
-            {
-                connection.Open();
+                var connection = Handlers.SqlInstance.Instance;
 
                 string sql = "SELECT lesson_content FROM lessons WHERE lesson_name = @lesson_name";
                 using (MySqlCommand command = new MySqlCommand(sql, connection))
@@ -125,7 +122,7 @@ namespace HOME
                         }
                     }
                 }
-            }
+            
 
             return docxData;
         }

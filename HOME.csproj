@@ -2902,6 +2902,7 @@
     <Content Include="bootstrap\js\bootstrap.bundle.min.js.map" />
     <Content Include="bootstrap\js\bootstrap.js.map" />
     <Content Include="bootstrap\js\bootstrap.min.js.map" />
+    <Content Include="Handlers\AddUserViewed.aspx" />
     <Content Include="Handlers\NewLesson.aspx" />
     <Content Include="HOMEPAGE.aspx" />
     <Content Include="images\evangelista.jpg" />
@@ -3033,6 +3034,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Handlers\AddUserViewed.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>AddUserViewed.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\AddUserViewed.aspx.designer.cs">
+      <DependentUpon>AddUserViewed.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Handlers\NewLesson.aspx.cs">
       <SubType>ASPXCodeBehind</SubType>
       <DependentUpon>NewLesson.aspx</DependentUpon>
@@ -3040,6 +3048,7 @@
     <Compile Include="Handlers\NewLesson.aspx.designer.cs">
       <DependentUpon>NewLesson.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Handlers\SqlInstance.cs" />
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

@@ -229,8 +229,20 @@ h1 {
                  <CENTER> <h1>ACCOUNT SETTINGS</h1></CENTER>
                     <div class="p-5 row">
                         <div class="ml-5 how-img">
-                            <img src="images/profile.png" class="rounded-circle img-fluid" alt="" style="border: 1px solid #ddd;
-                                 border-radius: 4px; padding: 5px; width: 175px; height: 175px";/>
+                                <%
+                                                  string pfpUrl = "/images/user.png";
+                                                  
+                                                  if (Session["pfpUrl"] != null && Session["pfpUrl"] != DBNull.Value)
+                                                  {
+                                                      pfpUrl = (string)Session["pfpUrl"];
+                                                  }
+                                                  
+                                                  Console.WriteLine(pfpUrl);
+                                        %>
+                                         <img src="<%= HttpUtility.HtmlDecode(pfpUrl) %>" class="rounded-circle img-fluid" alt="" style="border: 1px solid #ddd;
+                                                                         border-radius: 4px; padding: 5px; width: 175px; height: 175px";/>
+<%--                             <img src="images/profile.png" class="rounded-circle img-fluid" alt="" style="border: 1px solid #ddd; --%>
+<%--                                  border-radius: 4px; padding: 5px; width: 175px; height: 175px";/> --%>
                         </div>
                         <div class="col-md-6 p-5">
                             <h2><%= Session["firstname"].ToString().ToUpper()%> <%= Session["lastname"].ToString().ToUpper() %> </h2>    

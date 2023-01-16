@@ -2,9 +2,10 @@
     font-family: 'Fredoka', sans-serif;
     overflow-x: hidden;
 }
+
 /* The sidebar menu */
 .sidebar {
-    background: linear-gradient(177deg, rgba(255,255,255,1) 0%, rgba(108,116,221,1) 0%, rgba(66,49,185,1) 44%, rgba(43,18,120,1) 83%);
+    background: linear-gradient(177deg, rgba(255, 255, 255, 1) 0%, rgba(108, 116, 221, 1) 0%, rgba(66, 49, 185, 1) 44%, rgba(43, 18, 120, 1) 83%);
     height: -webkit-fill-available;
     width: 230px;
     position: fixed;
@@ -16,15 +17,14 @@
 }
 
 
-
-    /* The navigation menu links */
-    .sidebar a {
-        padding: 1px 30px 6px 40px;
-        font-size: 20px;
-        color: #cecfe8;
-        text-decoration: none;
-        display: block;
-    }
+/* The navigation menu links */
+.sidebar a {
+    padding: 1px 30px 6px 40px;
+    font-size: 20px;
+    color: #cecfe8;
+    text-decoration: none;
+    display: block;
+}
 
 .account a {
     text-align: right;
@@ -70,8 +70,9 @@
 }
 
 .content {
-    margin-left: 230px;
+    
 }
+
 /* The sidebar menu */
 @media screen and (max-width: 768px) {
     .sidebar {
@@ -88,15 +89,15 @@
     }
 
 
-        /* The navigation menu links */
-        .sidebar a {
-            padding: 5px 5px 5px 5px;
-            display: flex;
-            text-decoration: none;
-            font-size: 2vw;
-            color: #cecfe8;
-            font-family: 'Fredoka', sans-serif;
-        }
+    /* The navigation menu links */
+    .sidebar a {
+        padding: 5px 5px 5px 5px;
+        display: flex;
+        text-decoration: none;
+        font-size: 2vw;
+        color: #cecfe8;
+        font-family: 'Fredoka', sans-serif;
+    }
 
     .content {
         margin-left: auto;
@@ -152,6 +153,6 @@
     height: auto;
 }
 
-h1{
+h1 {
     font-weight: 600;
 }

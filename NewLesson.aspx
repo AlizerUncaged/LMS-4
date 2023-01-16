@@ -16,13 +16,18 @@
             <form class="m-4" method="post">
                 <div class="form-group">
                     <label for="lessonTitle">Lesson Title</label>
-                    <input name="title" type="text" id="lessonTitle" class="form-control" aria-describedby="titleHelp">
+                    <input autocomplete="off" name="title" value="<%= title %>" type="text" id="lessonTitle" class="form-control" aria-describedby="titleHelp">
                     <small id="titleHelp" class="form-text text-muted">The lesson's title.</small>
                 </div>
                 <div class="form-group">
                     <label for="lessonTitle">Lesson Category</label>
-                    <input name="category" type="text" id="lcategory" class="form-control" aria-describedby="lcategory">
+                    <input autocomplete="off" name="category" value="<%= category %>" type="text" id="lcategory" class="form-control" aria-describedby="lcategory">
                     <small id="lcategory" class="form-text text-muted">The lesson's category.</small>
+                </div>
+                <div class="form-group">
+                    <label for="_lessonId2">Lesson Id</label>
+                    <input autocomplete="off" readonly="readonly" value="<%= lessonId %>" name="lessonId" type="text" id="_lessonId2" class="form-control" aria-describedby="lcategory">
+                    <small class="form-text text-muted">The original lesson ID.</small>
                 </div>
                 <%-- <div class="form-group"> --%>
                 <%--     <label for="formFile" class="form-label">Thumbnail Image</label> --%>
@@ -32,7 +37,7 @@
 
                 <div class="form-group">
                     <label for="lessonContent" class="form-label">Lesson Contents</label>
-                    <textarea id="lessonContent" name="content" class="form-control" rows="4"  style="width: 100%"></textarea>
+                    <textarea autocomplete="off" id="lessonContent" name="content" class="form-control" rows="4"  style="width: 100%"><%= content %></textarea>
                 </div>
 
                 <button type="submit" class="btn btn-primary rounded-1">Submit</button>

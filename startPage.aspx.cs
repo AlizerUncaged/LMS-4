@@ -12,21 +12,15 @@ namespace HOME
 {
     public partial class WebForm5 : System.Web.UI.Page
     {
-
         public static string quiztitle, quizid, quizdesc = "", attempts;
         public int qID;
-        MySqlConnection DBCon = new MySqlConnection("Data Source = localhost; username=root; password=; database=techque_db;");
 
-        MySqlConnection DBCon2 = new MySqlConnection("Data Source = localhost; username=root; password=; database=techque_db;");
         protected void Page_Load(object sender, EventArgs e)
         {
-            int id = (int)Session["id"];
             quizPage.i = 0;
 
             quizPage.points = 0;
             quizid = hdnfld.Text;
-
-
 
 
             /*string sql = "SELECT COUNT(attempt_id) FROM quizattempts WHERE userid = @value";
@@ -49,24 +43,25 @@ namespace HOME
         {
             labeldate.InnerText = "No attempts made";
         }*/
-
-
         }
+
         protected void Back_Click(object sender, EventArgs e)
         {
             Response.Redirect("HOMEPAGE.aspx");
         }
+
         protected void Start_Click(object sender, EventArgs e)
         {
-
             Response.Redirect("quizPage.aspx");
-
         }
+
         protected void Load_Click(object sender, EventArgs e)
         {
+            var DBCon = Handlers.SqlInstance.Instance;
+            var DBCon2 = Handlers.SqlInstance.Instance;
+
             Button2.Enabled = false;
             Button2.Visible = false;
-            DBCon.Open();
             MySqlCommand cmd = new MySqlCommand("Select * FROM quiz WHERE id ='" + quizid + "'", DBCon);
             MySqlDataAdapter adapt = new MySqlDataAdapter(cmd);
             DataTable dtQDeets = new DataTable();
@@ -76,37 +71,40 @@ namespace HOME
             {
                 quiztitle = row["title"].ToString();
             }
-            DBCon.Close();
-            DBCon2.Open();
-            MySqlCommand cmd2 = new MySqlCommand("Select * FROM quizattempts WHERE quiz_id ='" + quizid + "' AND userid ='" + Session["id"].ToString() +"'", DBCon);
+
+            MySqlCommand cmd2 =
+                new MySqlCommand(
+                    "Select * FROM quizattempts WHERE quiz_id ='" + quizid + "' AND userid ='" +
+                    Session["id"].ToString() + "'", DBCon);
             MySqlDataAdapter adapt2 = new MySqlDataAdapter(cmd2);
             DataTable dtAttempts = new DataTable();
             adapt2.Fill(dtAttempts);
             if (dtAttempts != null)
-           {
+            {
                 if (dtAttempts.Rows.Count > 0 && dtAttempts.Rows.Count < 3)
                 {
                     attempts = "";
-                     foreach (DataRow row2 in dtAttempts.Rows)
-                    {
-                        attempts += "<div class ='attemptRow'><div class = 'attemptDate'>" + row2["date"].ToString() + "</div><div class = 'attemptScore'>" + row2["score"].ToString()+"</div></div>";
-                    }   
-                }
-                else if(dtAttempts.Rows.Count >= 3)
-                {
-                    Button1.Enabled = false; attempts = "";
                     foreach (DataRow row2 in dtAttempts.Rows)
                     {
-                        attempts += "<div class ='attemptRow'><div class = 'attemptDate'>" + row2["date"].ToString() + "</div><div class = 'attemptScore'>" + row2["score"].ToString() + "</div></div>";
+                        attempts += "<div class ='attemptRow'><div class = 'attemptDate'>" + row2["date"].ToString() +
+                                    "</div><div class = 'attemptScore'>" + row2["score"].ToString() + "</div></div>";
+                    }
+                }
+                else if (dtAttempts.Rows.Count >= 3)
+                {
+                    Button1.Enabled = false;
+                    attempts = "";
+                    foreach (DataRow row2 in dtAttempts.Rows)
+                    {
+                        attempts += "<div class ='attemptRow'><div class = 'attemptDate'>" + row2["date"].ToString() +
+                                    "</div><div class = 'attemptScore'>" + row2["score"].ToString() + "</div></div>";
                     }
                 }
                 else
                 {
                     attempts = "<div class ='attemptNone'>No attempts made.</div>";
                 }
-
             }
-            DBCon2.Close();
         }
     }
 }

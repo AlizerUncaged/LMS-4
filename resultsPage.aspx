@@ -7,7 +7,6 @@
         <link href="CSS/resultsPage%20css.css" rel="stylesheet" />
         <title runat="server">Results</title>
     </head>
-        <div class="results">
 
     <div class="score_header"><%=scoreheader %></div>
             <hr />

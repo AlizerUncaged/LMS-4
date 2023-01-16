@@ -24,13 +24,16 @@ namespace HOME
         public string makehtml = "";
         public string newLessons = "";
 
-        MySqlConnection DBCon =
-            new MySqlConnection("Data Source = localhost; username=root; password=; database=techque_db;");
+
+        public static string Base64Encode(string plainText)
+        {
+            var plainTextBytes = System.Text.Encoding.UTF8.GetBytes(plainText);
+            return System.Convert.ToBase64String(plainTextBytes);
+        }
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            DBCon.Open();
-
+            var DBCon = Handlers.SqlInstance.Instance;
 
             List<Lesson> lessons = new List<Lesson>();
             string query = "SELECT lessonId, name, category, content FROM new_lessons";
@@ -56,7 +59,6 @@ namespace HOME
                         catch
                         {
                         }
-                        
 
                         Lesson lesson = new Lesson
                         {
@@ -71,6 +73,7 @@ namespace HOME
                 }
             }
 
+            // new lessons
             var categorized = lessons.GroupBy(x => x.Category);
 
             foreach (IEnumerable<Lesson> row in categorized)
@@ -84,12 +87,14 @@ namespace HOME
                     newLessons +=
                         "<input type = 'hidden'runat='server' class='topicContainer' ID='hdnfld' ClientIDMode='Static' value = '" +
                         row2.Name.ToString() + "'> </input>" +
-                        "<div class = 'quizTopic' onClick='qt_click(this.id)' runat = 'server' id= '" +
+                        "<div class = 'quizTopic' id= '" +
                         row2.Name.ToString() +
-                        "'><div class='quizTopicCover'><i runat='server' class = 'fa-solid fa-trash-can fa-2xs' onClick='Delete_Click' id ='" +
+                        $"'><div class='quizTopicCover'><a href='NewLesson?action=deleteLesson&lessonId={row2.LessonId}'><i class = 'fa-solid fa-trash-can fa-2xs' onClick='Delete_Click' id ='" +
                         row2.LessonId.ToString() +
-                        "tc'></i><i runat='server' class = 'fa-solid fa-pen-to-square fa-2xs' onClick='Edit_Click' id ='" +
-                        row2.LessonId.ToString() + "et'></i></div><div class = 'quizTopicTitle'>" +
+                        $"tc'></i></a><a href='/NewLesson?lessonId={row2.LessonId}'><i runat='server' class = 'fa-solid fa-pen-to-square fa-2xs' id ='" +
+                        row2.LessonId.ToString() + "et'></i></a><i onclick='setModal(\"" + Base64Encode(row2.Name) + "\", \"" +
+                        Base64Encode(row2.Content) +
+                        $"\", {row2.LessonId}, {0})' data-bs-toggle='modal' data-bs-target='#lesson-modal' class=\"bi bi-view-list text-black-50 m-2\" style='cursor: pointer'></i></div><div class = 'quizTopicTitle'>" +
                         row2.Name.ToString() + "</div> </div>";
                 }
 
@@ -104,6 +109,7 @@ namespace HOME
             MySqlDataAdapter adapt2 = new MySqlDataAdapter(cmd2);
             DataTable dtQuiz = new DataTable();
             adapt2.Fill(dtQuiz);
+
             foreach (DataRow row in dtCat.Rows)
             {
                 makehtml += "<div class = 'category'>" + row["language"].ToString() +
@@ -117,7 +123,7 @@ namespace HOME
                         makehtml +=
                             "<input type = 'hidden'runat='server' class='topicContainer' ID='hdnfld' ClientIDMode='Static' value = '" +
                             row2["lesson_name"].ToString() + "'> </input>" +
-                            "<div class = 'quizTopic' onClick='qt_click(this.id)' runat = 'server' id= '" +
+                            "<div class = 'quizTopic'  id= '" +
                             row2["lesson_name"].ToString() +
                             "'><div class='quizTopicCover'><i runat='server' class = 'fa-solid fa-trash-can fa-2xs' onClick='Delete_Click' id ='" +
                             row2["lesson_id"].ToString() +

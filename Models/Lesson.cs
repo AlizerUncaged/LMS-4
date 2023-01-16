@@ -10,7 +10,10 @@
     }
 }
 /*
-yung flow po ng site dapat po pag nabasa po yung gantong lesson, tsaka lang po maaaccess ng student yung isang quiz
+ 
+ question lang po possible naman po yung flow po na dapat mabasa muna ng user yung lesson before mabuksan yung quizz na para po doon diba po?
+ 
+x yung flow po ng site dapat po pag nabasa po yung gantong lesson, tsaka lang po maaaccess ng student yung isang quiz
 
 admin homepage (kulang yung buttons po ng add edit delete lesson, add edit delete quiz, add delete category)
 

@@ -64,13 +64,15 @@ div.quizTopicSec {
     overflow-y: hidden;
     white-space: nowrap;
 }
+.swiper-slide
+{
+    width: 300px !important;
+}
 div.quizTopic {
     border-radius: 17px;
     background-color: bisque;
     margin-top: 15px;
     margin-right: 32px;
-    width: 35%;
-    height: 80%;
     font-size: 35px;
     font-family: Fredoka, sans serif;
     font-weight: 500;

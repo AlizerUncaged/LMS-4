@@ -20,11 +20,9 @@ namespace HOME
         public string makehtml = "",intqid, answer;
         public static int i = 0, points= 0;
         public DataTable dtItems = new DataTable();
-        MySqlConnection DBCon = new MySqlConnection("Data Source = localhost; username=root; password=; database=techque_db;");
-        MySqlConnection DBCon2 = new MySqlConnection("Data Source = localhost; username=root; password=; database=techque_db;");
         protected void Page_Load(object sender, EventArgs e)
         {
-            DBCon.Open();
+            var DBCon = Handlers.SqlInstance.Instance;
             intqid = hdnfld_quizID.Text; 
             MySqlCommand cmd = new MySqlCommand("Select * FROM quizquestions where quiz_id='"+intqid+"'", DBCon);
             MySqlDataAdapter adapt = new MySqlDataAdapter(cmd);

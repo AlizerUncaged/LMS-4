@@ -7,25 +7,20 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace HOME
+namespace HOME.Handlers
 {
 
 
-    public partial class resultsPage
+    public partial class AddUserViewed
     {
 
         /// <summary>
-        /// Master property.
+        /// htmlForm control.
         /// </summary>
         /// <remarks>
-        /// Auto-generated property.
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        public new HOME.Site2 Master
-        {
-            get
-            {
-                return ((HOME.Site2)(base.Master));
-            }
-        }
+        protected global::System.Web.UI.HtmlControls.HtmlForm htmlForm;
     }
 }

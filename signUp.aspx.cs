@@ -12,8 +12,6 @@ namespace HOME
 {
     public partial class signUp : System.Web.UI.Page
     {
-        MySqlConnection DBCon =
-            new MySqlConnection("Data Source = localhost; username=root; password=; database=techque_db");
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -24,12 +22,13 @@ namespace HOME
             string gender = genderOptions.SelectedItem.Value.ToString();
 
 
+            var DBCon = Handlers.SqlInstance.Instance;
+            
             MySqlCommand cmd = new MySqlCommand("Select * FROM `users` WHERE email ='" + txtemailAddress.Text + "'",
                 DBCon);
             MySqlDataAdapter adapt = new MySqlDataAdapter(cmd);
             DataTable DT = new DataTable();
             adapt.Fill(DT);
-            DBCon.Open();
 
 
             if (txtpassword.Text != txtconfirmpass.Text)

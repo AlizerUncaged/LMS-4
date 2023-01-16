@@ -5,10 +5,7 @@
     <head>
         <title>About Us</title>
     <style>
-        *{
-            font-size: 20px;
-            font-family: 'Fredoka', sans-serif;
-        }
+       
         body{
              background: white;
         }

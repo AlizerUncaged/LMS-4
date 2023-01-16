@@ -11,10 +11,9 @@ namespace HOME
 {
     public partial class WebForm3 : System.Web.UI.Page
     {
-        MySqlConnection DBCon = new MySqlConnection("Data Source = localhost; username=root; password=; database=techque_db;");
         protected void Page_Load(object sender, EventArgs e)
         {
-          
+            var DBCon = Handlers.SqlInstance.Instance;
            
         }
     }
