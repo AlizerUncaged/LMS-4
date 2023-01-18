@@ -94,7 +94,8 @@ namespace HOME
                         $"tc'></i></a><a href='/NewLesson?lessonId={row2.LessonId}'><i runat='server' class = 'fa-solid fa-pen-to-square fa-2xs' id ='" +
                         row2.LessonId.ToString() + "et'></i></a><i onclick='setModal(\"" + Base64Encode(row2.Name) + "\", \"" +
                         Base64Encode(row2.Content) +
-                        $"\", {row2.LessonId}, {0})' data-bs-toggle='modal' data-bs-target='#lesson-modal' class=\"bi bi-view-list text-black-50 m-2\" style='cursor: pointer'></i></div><div class = 'quizTopicTitle'>" +
+                        $"\", {row2.LessonId}, {0})' data-bs-toggle='modal' data-bs-target='#lesson-modal' class=\"bi bi-eye-fill text-black-50 m-2\" style='cursor: pointer'></i></div><div class = 'quizTopicTitle'>" +
+                        $"<p class='opacity-50'>ID: {row2.LessonId}</p>" +
                         row2.Name.ToString() + "</div> </div>";
                 }
 

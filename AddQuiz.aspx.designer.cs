@@ -11,7 +11,7 @@ namespace HOME
 {
 
 
-    public partial class WebForm6
+    public partial class AddQuiz
     {
 
         /// <summary>
@@ -20,11 +20,11 @@ namespace HOME
         /// <remarks>
         /// Auto-generated property.
         /// </remarks>
-        public new HOME.Site2 Master
+        public new HOME.AdminMasterPage Master
         {
             get
             {
-                return ((HOME.Site2)(base.Master));
+                return ((HOME.AdminMasterPage)(base.Master));
             }
         }
     }

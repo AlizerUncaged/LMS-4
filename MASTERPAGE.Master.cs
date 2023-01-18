@@ -16,6 +16,7 @@ namespace HOME
         {
             Console.WriteLine("Page load");
             var key = "type";
+            
             if (Session[key] == null || Convert.IsDBNull(Session[key]))
             {
                 // redirect the user

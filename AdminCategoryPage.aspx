@@ -8,7 +8,6 @@
         <link href="bootstrap/css/bootstrap.css?v=1" rel="stylesheet"/>
         <link href="CSS/AdminHomePage%20css.css?v=3" rel="stylesheet"/>
         <link href="fontawesome-free-6.2.1-web/css/all.css" rel="stylesheet"/>
-        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
         <style>
             

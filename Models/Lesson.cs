@@ -29,4 +29,7 @@ manage accounts page ( makikita po mga users and pwede po masuspend account)
 
 student homepage(mapakita po yung quiz na di pa nasasagutan ng student sa header)
 
-certificate page (maggegenerate ng certificate pag natake na po ng student lahat ng quiz sa isang category tas masstore po sa isang page mga certificate na natanggap ng student)*/
+certificate page (maggegenerate ng certificate pag natake na po ng student lahat ng quiz sa isang category tas masstore po sa isang page mga certificate na 
+natanggap ng student)
+
+*/

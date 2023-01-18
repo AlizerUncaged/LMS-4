@@ -2,14 +2,17 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    
     <html>
     <head >
         <title>Start Page</title>
         <link href="CSS/startPage%20css.css" rel="stylesheet"/>
     </head>
-    <body>
-    <div class="row pt-3 ml-3">
-        <asp:Button ID="Back" CssClass="button" runat="server" Text="Back" OnClick="Back_Click"/>
+    <body class="m-2">
+    <div class="row pt-3 m-3">
+        <asp:LinkButton  ID="Back" CssClass="btn btn-primary rounded-1 text-light" runat="server" Text="Back" OnClick="Back_Click">
+            <i class="bi bi-arrow-90deg-left text-light"></i> Back
+        </asp:LinkButton >
     </div>
     <div class="row pt-5 justify-content-center">
         <asp:TextBox type="hidden" runat="server" ID="hdnfld" ClientID="hdnfld" ClientIDMode="Static">
@@ -18,8 +21,15 @@
         <h5></h5>
     </div>
     <div class="description"><%= quizdesc %></div>
-    <div class="row pt-3 pb-3 justify-content-center">
-        <asp:Button CssClass="button" ID='Button1' class='startButton' runat='server' Text='Start' OnClick='Start_Click'/>
+    <div class="row pt-3 pb-3 m-3">
+        <asp:LinkButton  CssClass="btn btn-primary rounded-1 text-light"
+                    ID='Button1'
+                    class='startButton'
+                    runat='server'
+                    Text='Start'
+                    OnClick='Start_Click'>
+            <i class="bi bi-play-fill text-light"></i> Start
+        </asp:LinkButton >
     </div>
     <hr/>
     <div class="row justify-content-center">
@@ -28,7 +38,7 @@
 
         <%= attempts %>
 
-        <asp:Button ID="Button2" class="loadButton" CssClass="loadButton" runat="server" OnClick="Load_Click"/>
+        <asp:Button ID="Button2" class="btn btn-primary" CssClass="loadButton" runat="server" OnClick="Load_Click"/>
 
         <script type="text/javascript">
         

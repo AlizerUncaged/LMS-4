@@ -11,11 +11,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <link href="datatables/datatables.min.css" rel="stylesheet"/>
     <link href="fontawesome-free-6.2.1-web/css/all.css" rel="stylesheet"/>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <link href="CSS/MASTERPAGE%20css.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="icon" type="image/png" href="/images/TechQue logo.png"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
@@ -49,7 +52,7 @@
         <a href="HOMEPAGE.aspx#quiz-sec">Quizzes</a>
         <a href="CategoryPage.aspx">Lessons</a>
         <a href="recordPage.aspx">Records</a>
-        <a href="#">Certificates</a>
+        <a href="Certificates.aspx">Certificates</a>
         <a href="userProfile.aspx">Profile</a>
         <%-- <a href="accountSettings.aspx">Account Settings</a> --%>
         <a href="userProfile.aspx">User Profile</a>
@@ -62,11 +65,12 @@
         </div>
     </div>
 
-
     <div class="content">
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         </asp:ContentPlaceHolder>
     </div>
+
 </form>
+
 </body>
 </html>

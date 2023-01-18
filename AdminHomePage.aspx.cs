@@ -16,30 +16,40 @@ namespace HOME
     {
         public string makehtml = "";
 
-        public static MySqlConnection DBCon =
-            new MySqlConnection("Data Source = localhost; username=root; password=; database=techque_db;");
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            string language = "", quiz = "";
-            DBCon.Open();
-            MySqlCommand cmd = new MySqlCommand("Select * FROM category", DBCon);
-            MySqlDataAdapter adapt = new MySqlDataAdapter(cmd);
-            DataTable dtCat = new DataTable();
-            adapt.Fill(dtCat);
-            MySqlCommand cmd2 = new MySqlCommand("Select * FROM quiz", DBCon);
+            var dbCon = Handlers.SqlInstance.Instance;
+
+            List<string> categories = new List<string>();
+            string sql = "SELECT DISTINCT language FROM quiz";
+
+            using (MySqlCommand cmd = new MySqlCommand(sql, dbCon))
+            {
+                MySqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    categories.Add(reader["language"].ToString());
+                }
+
+                reader.Close();
+            }
+
+            categories = categories.Distinct().ToList();
+
+            MySqlCommand cmd2 = new MySqlCommand("Select * FROM quiz", dbCon);
             MySqlDataAdapter adapt2 = new MySqlDataAdapter(cmd2);
             DataTable dtQuiz = new DataTable();
             adapt2.Fill(dtQuiz);
-            foreach (DataRow row in dtCat.Rows)
+            foreach (var row in categories)
             {
-                makehtml += "<div class = 'category'>" + row["language"].ToString() +
+                makehtml += "<div class = 'category'>" + row +
                             " <i class = 'fa-solid fa-file-circle-plus fa-xs' onClick='qtAdd_click(this.id)' id ='" +
-                            row["language"].ToString() + "'></i> <hr><div class ='quizTopicSec'>";
+                            row + "'></i> <hr><div class ='quizTopicSec'>";
 
                 foreach (DataRow row2 in dtQuiz.Rows)
                 {
-                    if (row["language"].ToString() == row2["language"].ToString())
+                    if (row == row2["language"].ToString())
                     {
                         // makehtml += "<button type = 'button' >" + row2["title"].ToString()+"</button>";
                         makehtml +=
@@ -56,7 +66,6 @@ namespace HOME
                 makehtml += "</div></div>";
             }
 
-            DBCon.Close();
         }
 
         protected void Delete_Click(object sender, EventArgs e)

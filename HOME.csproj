@@ -168,12 +168,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="accountSettings.aspx" />
+    <Content Include="AddQuiz.aspx" />
     <Content Include="Add_EditQuiz.aspx" />
     <Content Include="AdminAdd_EditLesson.aspx" />
     <Content Include="AdminCategoryPage.aspx" />
     <Content Include="AdminHomePage.aspx" />
     <Content Include="AdminLesson.aspx" />
     <Content Include="CategoryPage.aspx" />
+    <Content Include="Certificate.aspx" />
+    <Content Include="Certificates.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -2973,6 +2976,13 @@
     <Compile Include="accountSettings.aspx.designer.cs">
       <DependentUpon>accountSettings.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AddQuiz.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>AddQuiz.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddQuiz.aspx.designer.cs">
+      <DependentUpon>AddQuiz.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Add_EditQuiz.aspx.cs">
       <DependentUpon>Add_EditQuiz.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -3023,6 +3033,20 @@
     </Compile>
     <Compile Include="CategoryPage.aspx.designer.cs">
       <DependentUpon>CategoryPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Certificate.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Certificate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Certificate.aspx.designer.cs">
+      <DependentUpon>Certificate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Certificates.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Certificates.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Certificates.aspx.designer.cs">
+      <DependentUpon>Certificates.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>

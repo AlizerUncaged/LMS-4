@@ -21,7 +21,7 @@ namespace HOME
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Back;
+        protected global::System.Web.UI.WebControls.LinkButton Back;
 
         /// <summary>
         /// hdnfld control.
@@ -39,7 +39,7 @@ namespace HOME
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.LinkButton Button1;
 
         /// <summary>
         /// Button2 control.

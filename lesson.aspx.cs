@@ -30,13 +30,7 @@ namespace HOME
         }
         protected void Button1_Click(object sender, EventArgs e)
         {
-
-
-
             Button1.Visible = false;
-
-
-
 
             // Retrieve the DOCX file from the database
             byte[] docxData = GetDocxFileFromDatabase();

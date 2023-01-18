@@ -18,9 +18,9 @@
         </div>
         <div class='category'>
             <div class="d-flex flex-row mb-3 mt-3">
-                <button class="btn btn-primary rounded-1">
+                <a href="AddQuiz.aspx" class="btn btn-primary rounded-1">
                     <i class="fa-solid fa-plus"></i> Add Quiz
-                </button>
+                </a>
             </div>
         </div>
 

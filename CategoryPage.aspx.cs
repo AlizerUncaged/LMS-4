@@ -90,8 +90,11 @@ namespace HOME
                 foreach (var l in lessons.Where(x => x.Category == category.Category))
                 {
                     // encode requried to we wont have problems setting these on html
-
                     // check if unlocked
+                    
+                    
+                    
+                    
                     var lessonTitleEncoded = Base64Encode(l.Name);
                     var lessonContentEncoded = Base64Encode(l.Content);
                     makehtml += $"<div onclick='setModal(\"" + lessonTitleEncoded + "\", \"" + lessonContentEncoded +

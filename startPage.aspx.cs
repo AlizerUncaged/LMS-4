@@ -58,7 +58,6 @@ namespace HOME
         protected void Load_Click(object sender, EventArgs e)
         {
             var DBCon = Handlers.SqlInstance.Instance;
-            var DBCon2 = Handlers.SqlInstance.Instance;
 
             Button2.Enabled = false;
             Button2.Visible = false;
