@@ -29,17 +29,17 @@
     </body>
     <script>
              function qtRecords_click(clicked_id) {
-                 var id = this.id;
-                 localStorage.setItem("quizid", clicked_id);
-
-                 location.href = "AdminQuizRecords.aspx";
+                 // var id = this.id;
+                 // localStorage.setItem("quizid", clicked_id);
+                 //
+                 // location.href = "AdminQuizRecords.aspx";
 
              }
              function qtAdd_click(clicked_id) {
-                 var id = this.id;
-                 localStorage.setItem("language", clicked_id);
-
-                 location.href = "Add_EditQuiz.aspx";
+                 // var id = this.id;
+                 // localStorage.setItem("language", clicked_id);
+                 //
+                 // location.href = "Add_EditQuiz.aspx";
 
              }
          </script>

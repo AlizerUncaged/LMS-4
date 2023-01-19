@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Dynamic;
+using System.Linq;
 using System.Web.UI;
 using MySql.Data.MySqlClient;
 
@@ -12,10 +15,56 @@ namespace HOME
         public string timeLimit = "";
         public string requiredLessons = "";
 
+        public List<dynamic> quizQuestions = new List<dynamic>();
 
         protected void Page_Load(object sender, EventArgs e)
         {
             var conn = Handlers.SqlInstance.Instance;
+
+            var editQuizId = Request.QueryString["editQuizId"];
+            string _sql = "SELECT * FROM quiz WHERE id = @editQuizId";
+            using (MySqlCommand cmd = new MySqlCommand(_sql, conn))
+            {
+                cmd.Parameters.AddWithValue("@editQuizId", editQuizId);
+                using (MySqlDataReader reader = cmd.ExecuteReader())
+                {
+                    if (reader.Read())
+                    {
+                        lessonId = reader.GetInt32("id").ToString();
+                        category = reader.GetString("language");
+                        title = reader.GetString("title");
+                        timeLimit = reader.GetString("timelimit");
+                        requiredLessons = reader.GetString("requiredLessons");
+                    }
+                }
+            }
+
+
+            string sql =
+                "SELECT quiz_id, qorder, questiontext, optA, optB, optC, optD, optCorrect FROM quizquestions WHERE quiz_id = @editQuizId";
+            using (MySqlCommand cmd = new MySqlCommand(sql, conn))
+            {
+                cmd.Parameters.AddWithValue("@editQuizId", editQuizId);
+                using (MySqlDataReader reader = cmd.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        dynamic question = new ExpandoObject();
+                        question.quiz_id = reader.GetInt32("quiz_id");
+                        question.qorder = reader.GetInt32("qorder");
+                        question.questiontext = reader.GetString("questiontext");
+                        question.optA = reader.GetString("optA");
+                        question.optB = reader.GetString("optB");
+                        question.optC = reader.GetString("optC");
+                        question.optD = reader.GetString("optD");
+                        question.optCorrect = reader.GetString("optCorrect");
+                        quizQuestions.Add(question);
+                    }
+                }
+            }
+
+            quizQuestions = quizQuestions.OrderBy(x => x.qorder).ToList();
+
 
             if (IsPostBack)
             {
@@ -30,7 +79,7 @@ namespace HOME
                     Request.Form.GetValues("question[][correctAnswers]") // 2
                 };
 
-                string sql =
+                sql =
                     "INSERT INTO quiz (language, title, timelimit, requiredLessons) VALUES (@language, @title, @timelimit, @requiredLessons)";
                 long quizId = 0;
                 using (MySqlCommand cmd = new MySqlCommand(sql, conn))
@@ -61,7 +110,6 @@ namespace HOME
                     }
                     catch
                     {
-                        
                     }
 
                     string optCorrect = question[2][i];

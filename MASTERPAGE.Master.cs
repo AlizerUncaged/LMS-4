@@ -16,21 +16,74 @@ namespace HOME
         {
             Console.WriteLine("Page load");
             var key = "type";
-            
+
             if (Session[key] == null || Convert.IsDBNull(Session[key]))
             {
                 // redirect the user
                 Console.WriteLine("user is not logged in!");
                 Response.Redirect("/");
             }
+
+
+            if (bool.Parse(Session["suspended"].ToString()))
+            {
+                Response.Redirect("/Suspended.aspx");
+                return;
+            }
+
+            var DBCon = Handlers.SqlInstance.Instance;
+
+            // Remove invalid quizzes with empty titles.
+            string sql = "DELETE FROM quiz WHERE TRIM(title) = '' OR title IS NULL";
+
+            using (MySqlCommand cmd = new MySqlCommand(sql, DBCon))
+            {
+                cmd.ExecuteNonQuery();
+            }
+
+            // Remove invalid ``requiredLessons`` ids in ``quiz`` table.
+            sql = "SELECT requiredLessons FROM quiz";
+            using (MySqlCommand cmd = new MySqlCommand(sql, DBCon))
+            {
+                using (MySqlDataReader reader = cmd.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        string requiredLessons = reader.GetString("requiredLessons");
+                        string[] lessonIds = requiredLessons.Split(',');
+                        List<string> validLessonIds = new List<string>();
+                        for (int i = 0; i < lessonIds.Length; i++)
+                        {
+                            int lessonId = int.Parse(lessonIds[i]);
+                            string checkSql = "SELECT lessonId FROM new_lessons WHERE lessonId = @lessonId";
+                            using (MySqlCommand checkCmd = new MySqlCommand(checkSql, DBCon))
+                            {
+                                checkCmd.Parameters.AddWithValue("@lessonId", lessonId);
+                                int exists = Convert.ToInt32(checkCmd.ExecuteScalar());
+                                if (exists > 0)
+                                {
+                                    validLessonIds.Add(lessonIds[i]);
+                                }
+                            }
+                        }
+
+                        string updatedLessons = string.Join(",", validLessonIds);
+                        string updateSql = "UPDATE quiz SET requiredLessons = @updatedLessons WHERE id = @quizId";
+                        using (MySqlCommand updateCmd = new MySqlCommand(updateSql, DBCon))
+                        {
+                            updateCmd.Parameters.AddWithValue("@updatedLessons", updatedLessons);
+                            updateCmd.Parameters.AddWithValue("@quizId", reader.GetInt32("id"));
+                            updateCmd.ExecuteNonQuery();
+                        }
+                    }
+                }
+            }
         }
-      
+
         protected void signout_Click(object sender, EventArgs e)
         {
             Session.Clear();
             Response.Redirect("Login.aspx");
         }
-
-
     }
 }

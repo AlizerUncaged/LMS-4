@@ -16,9 +16,9 @@ namespace HOME
         protected void Page_Load(object sender, EventArgs e)
         {
             var connection = Handlers.SqlInstance.Instance;
+            var action = Request.QueryString["action"];
 
             lessonId = Request.QueryString["lessonId"];
-            var action = Request.QueryString["action"];
 
             if (int.TryParse(lessonId, out var parsedL))
             {
@@ -61,6 +61,7 @@ namespace HOME
                         Console.WriteLine("Lesson not found.");
                     }
                 }
+                
                     
                 Response.Redirect("/AdminCategoryPage.aspx");
             }

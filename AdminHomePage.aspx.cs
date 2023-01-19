@@ -35,6 +35,17 @@ namespace HOME
                 reader.Close();
             }
 
+            if (Request.QueryString["action"] != null && Request.QueryString["action"] == "delete" &&
+                Request.QueryString["quizId"] != null)
+            {
+                sql = "DELETE FROM quiz WHERE id = @quizId";
+                using (MySqlCommand cmd = new MySqlCommand(sql, dbCon))
+                {
+                    cmd.Parameters.AddWithValue("@quizId", Request.QueryString["quizId"]);
+                    cmd.ExecuteNonQuery();
+                }
+            }
+
             categories = categories.Distinct().ToList();
 
             MySqlCommand cmd2 = new MySqlCommand("Select * FROM quiz", dbCon);
@@ -55,17 +66,17 @@ namespace HOME
                         makehtml +=
                             "<div class = 'quizTopic' onClick='qtRecords_click(this.id)' runat = 'server' id= '" +
                             row2["id"].ToString() +
-                            "'><div class='quizTopicCover'><i runat='server' class = 'fa-solid fa-trash-can fa-2xs' onClick='Delete_Click' id ='" +
+                            $"'><div class='quizTopicCover'><i href='?quizId={row2["id"]}&action=delete' class = 'fa-solid fa-trash-can fa-2xs'  id ='" +
                             row2["id"].ToString() +
-                            "tc'></i><i runat='server' class = 'fa-solid fa-pen-to-square fa-2xs' onClick='Edit_Click' id ='" +
-                            row2["id"].ToString() + "et'></i></div><div class = 'quizTopicTitle'>" +
+                            $"tc'></i><a class='m-2' href='/Leaderboards?quizId={row2["id"]}'><i class = 'bi bi-trophy-fill text-success'  id ='" +
+                            row2["id"].ToString() +
+                            $"et'></i></a><a class='m-2' href='/AddQuiz?editQuizId={row2["id"]}'><i class=\"bi bi-pencil-square\"></i></a></div><div class = 'quizTopicTitle'>" +
                             row2["title"].ToString() + "</div> </div>";
                     }
                 }
 
                 makehtml += "</div></div>";
             }
-
         }
 
         protected void Delete_Click(object sender, EventArgs e)

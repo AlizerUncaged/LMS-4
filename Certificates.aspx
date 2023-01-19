@@ -25,20 +25,6 @@
     </form>
     </body>
     <script>
-                 function qtRecords_click(clicked_id) {
-                     var id = this.id;
-                     localStorage.setItem("quizid", clicked_id);
-    
-                     location.href = "AdminQuizRecords.aspx";
-    
-                 }
-                 function qtAdd_click(clicked_id) {
-                     var id = this.id;
-                     localStorage.setItem("language", clicked_id);
-    
-                     location.href = "Add_EditQuiz.aspx";
-    
-                 }
                     function setModal(src)
                              {
                                   document.getElementById('mo').src = src;
@@ -48,7 +34,7 @@
              </script>
     </html>
 
-    <div class="modal fade" tabindex="-1" id="lesson-modal">
+    <div class="modal fade" tabindex="-1" id="lesson-modal-mute">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">

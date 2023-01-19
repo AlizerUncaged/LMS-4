@@ -48,97 +48,103 @@ namespace HOME
                 reader.Close();
             }
 
-
-            MySqlCommand cmd2 = new MySqlCommand("Select * FROM quiz", DBCon);
-            MySqlDataAdapter adapt2 = new MySqlDataAdapter(cmd2);
-            DataTable dtQuiz = new DataTable();
-            adapt2.Fill(dtQuiz);
-            foreach (var row in categories)
+            var sqlCommand = "Select * FROM quiz";
+            var validator = new SqlValidator.Validator();
+            if (validator.Recheck(sqlCommand))
             {
-                makehtml += "<div class = 'category'>" + row +
-                            " <i class = 'fa-solid fa-arrow-right' onClick='qc_click(this.id)' id ='" +
-                            row +
-                            "'></i> <hr><div class ='quizTopicSec'><div class=\"swiper\"><div class=\"swiper-wrapper\">";
-
-                foreach (DataRow row2 in dtQuiz.Rows)
+                MySqlCommand cmd2 = new MySqlCommand(sqlCommand, DBCon);
+                MySqlDataAdapter adapt2 = new MySqlDataAdapter(cmd2);
+                DataTable dtQuiz = new DataTable();
+                adapt2.Fill(dtQuiz);
+                foreach (var row in categories)
                 {
-                    List<string> lessonNames = new List<string>();
+                    makehtml += "<div class = 'category'>" + row +
+                                " <i class = 'fa-solid fa-arrow-right' onClick='qc_click(this.id)' id ='" +
+                                row +
+                                "'></i> <hr><div class ='quizTopicSec'><div class=\"swiper\"><div class=\"swiper-wrapper\">";
 
-                    if (row == row2["language"].ToString())
+                    foreach (DataRow row2 in dtQuiz.Rows)
                     {
-                        bool lessonsViewed = true;
+                        List<string> allLessonNames = new List<string>();
 
-                        if (row2["requiredLessons"] != null && row2["requiredLessons"] != DBNull.Value &&
-                            !string.IsNullOrWhiteSpace(row2["requiredLessons"].ToString()))
+                        if (row == row2["language"].ToString())
                         {
-                            // Check the required lessons
-                            var requiredLessons =
-                                row2["requiredLessons"].ToString()
-                                    .Split(',')
-                                    .Select(int.Parse).ToList();
+                            bool lessonsViewed = true;
 
-                            lessonNames = new List<string>();
-                            string _sql = "SELECT name FROM new_lessons WHERE lessonId = @lessonId";
-
-                            using (MySqlCommand cmd = new MySqlCommand(_sql, DBCon))
+                            if (row2["requiredLessons"] != null && row2["requiredLessons"] != DBNull.Value &&
+                                !string.IsNullOrWhiteSpace(row2["requiredLessons"].ToString()))
                             {
-                                for (int i = 0; i < requiredLessons.Count; i++)
+                                // Check the required lessons
+                                var requiredLessons =
+                                    row2["requiredLessons"].ToString()
+                                        .Split(',')
+                                        .Where(x => !string.IsNullOrWhiteSpace(x))
+                                        .Select(int.Parse).ToList();
+
+                                allLessonNames = new List<string>();
+                                string _sql = "SELECT name FROM new_lessons WHERE lessonId = @lessonId";
+
+                                using (MySqlCommand cmd = new MySqlCommand(_sql, DBCon))
                                 {
-                                    cmd.Parameters.AddWithValue("@lessonId", requiredLessons[i]);
-                                    lessonNames.Add(cmd.ExecuteScalar().ToString());
-                                    cmd.Parameters.Clear();
+                                    for (int i = 0; i < requiredLessons.Count; i++)
+                                    {
+                                        cmd.Parameters.AddWithValue("@lessonId", requiredLessons[i]);
+
+                                        allLessonNames.Add(cmd.ExecuteScalar().ToString());
+                                        cmd.Parameters.Clear();
+                                    }
                                 }
-                            }
 
 
-                            // Check first if valid.
-                            var quizId = row;
-                            int userId = (int)Session["id"];
-                            // Connect to the database
+                                // Check first if valid.
+                                var quizId = row;
+                                int userId = (int)Session["id"];
+                                // Connect to the database
 
-                            // Get the required lesson IDs for the quiz
-                            var command = new MySqlCommand("SELECT requiredLessons FROM quiz WHERE id = @quizId",
-                                DBCon);
-                            command.Parameters.AddWithValue("@quizId", quizId);
-
-                            // Split the required lesson IDs into an array
-
-                            // Check if the user has viewed each required lesson
-                            foreach (var requiredLessonId in requiredLessons)
-                            {
-                                command = new MySqlCommand(
-                                    "SELECT COUNT(*) FROM lessonMetadata WHERE lessonId = @lessonId AND usersViewed LIKE @userId",
+                                // Get the required lesson IDs for the quiz
+                                var command = new MySqlCommand("SELECT requiredLessons FROM quiz WHERE id = @quizId",
                                     DBCon);
-                                command.Parameters.AddWithValue("@lessonId", requiredLessonId);
-                                command.Parameters.AddWithValue("@userId", "%" + userId + "%");
-                                if (Convert.ToInt32(command.ExecuteScalar()) == 0)
+                                command.Parameters.AddWithValue("@quizId", quizId);
+
+                                // Split the required lesson IDs into an array
+
+                                // Check if the user has viewed each required lesson
+                                foreach (var requiredLessonId in requiredLessons)
                                 {
-                                    // Response.Redirect("LessonNotViewed.aspx");
-                                    lessonsViewed = false;
+                                    command = new MySqlCommand(
+                                        "SELECT COUNT(*) FROM lessonMetadata WHERE lessonId = @lessonId AND usersViewed LIKE @userId",
+                                        DBCon);
+                                    command.Parameters.AddWithValue("@lessonId", requiredLessonId);
+                                    command.Parameters.AddWithValue("@userId", "%" + userId + "%");
+                                    if (Convert.ToInt32(command.ExecuteScalar()) == 0)
+                                    {
+                                        // Response.Redirect("LessonNotViewed.aspx");
+                                        lessonsViewed = false;
+                                    }
                                 }
                             }
+
+                            string newline = "\n";
+                            string newlineDelimitedString = string.Join(newline, allLessonNames);
+                            string encodedString = Base64Encode(HttpUtility.HtmlEncode(newlineDelimitedString));
+
+
+                            // makehtml += "<button type = 'button' >" + row2["title"].ToString()+"</button>";
+                            makehtml +=
+                                $"<div class ='swiper-slide quizTopic' " +
+                                (lessonsViewed
+                                    ? "onClick='qt_click(this.id)' runat = 'server' id= "
+                                    : $"data-bs-toggle='modal' data-bs-target='#lesson-modal' onclick=\"setModal('{Base64Encode("You need to view the following lessons first.")}', '{encodedString}', 0, 0);\"") +
+                                " '" +
+                                row2["id"].ToString() +
+                                "'><div class='quizTopicCover'></div><div class = 'quizTopicTitle'>" +
+                                (!lessonsViewed ? "<i class=\"bi bi-lock-fill\"></i>" : string.Empty) +
+                                row2["title"].ToString() + "</div></div>";
                         }
-
-                        string newline = "\n";
-                        string newlineDelimitedString = string.Join(newline, lessonNames);
-                        string encodedString = Base64Encode(HttpUtility.HtmlEncode(newlineDelimitedString));
-
-
-                        // makehtml += "<button type = 'button' >" + row2["title"].ToString()+"</button>";
-                        makehtml +=
-                            $"<div class ='swiper-slide quizTopic' " +
-                            (lessonsViewed
-                                ? "onClick='qt_click(this.id)' runat = 'server' id= "
-                                : $"data-bs-toggle='modal' data-bs-target='#lesson-modal' onclick=\"setModal('{Base64Encode("You need to view the following lessons first.")}', '{encodedString}', 0, 0);\"") +
-                            " '" +
-                            row2["id"].ToString() +
-                            "'><div class='quizTopicCover'></div><div class = 'quizTopicTitle'>" +
-                            (!lessonsViewed ? "<i class=\"bi bi-lock-fill\"></i>" : string.Empty) +
-                            row2["title"].ToString() + "</div></div>";
                     }
-                }
 
-                makehtml += "</div></div></div></div>";
+                    makehtml += "</div></div></div></div>";
+                }
             }
         }
     }

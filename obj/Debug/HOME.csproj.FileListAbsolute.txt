@@ -989,3 +989,5 @@ E:\Work\TECHQUE 2- 2.6\HOME\obj\Debug\HOME.csproj.CoreCompileInputs.cache
 E:\Work\TECHQUE 2- 2.6\HOME\obj\Debug\HOME.csproj.CopyComplete
 E:\Work\TECHQUE 2- 2.6\HOME\obj\Debug\HOME.dll
 E:\Work\TECHQUE 2- 2.6\HOME\obj\Debug\HOME.pdb
+E:\Work\TECHQUE 2- 2.6\HOME\bin\SqlValidator.dll
+E:\Work\TECHQUE 2- 2.6\HOME\bin\SqlValidator.pdb

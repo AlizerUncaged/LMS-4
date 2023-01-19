@@ -11,14 +11,12 @@ namespace HOME
 {
     public partial class Login : System.Web.UI.Page
     {
-
         protected void Page_Load(object sender, EventArgs e)
         {
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            
             var DBCon = Handlers.SqlInstance.Instance;
             var DBCon2 = Handlers.SqlInstance.Instance;
             MySqlCommand cmd =
@@ -28,7 +26,7 @@ namespace HOME
             MySqlDataAdapter adapt = new MySqlDataAdapter(cmd);
             DataTable DT = new DataTable();
             adapt.Fill(DT);
-            
+
 
             if (DT.Rows.Count > 0) // user
             {
@@ -43,24 +41,32 @@ namespace HOME
                     Session["lastname"] = row["lastname"];
                     Session["gender"] = row["gender"];
                     Session["password"] = row["password"];
+                    Session["suspended"] = false;
+                    if (!DBNull.Value.Equals(row["is_suspended"]))
+                    {
+                        Session["suspended"] = row["is_suspended"];
+                    }
+
                     Session["id"] = row["user_id"];
                     Session["pfpUrl"] = row["pfpUrl"];
+                    break;
                 }
 
                 Response.Redirect("HOMEPAGE.aspx");
             }
-            
+
+
             MySqlCommand cmd2 =
                 new MySqlCommand(
                     "Select * FROM `admin_user` WHERE email ='" + textusername.Text + "' AND password ='" +
                     textpass.Text + "'", DBCon2);
-            
+
             MySqlDataAdapter adapt2 = new MySqlDataAdapter(cmd2);
-            
+
             DataTable DT2 = new DataTable();
-            
+
             adapt2.Fill(DT2);
-            
+
 
             if (DT2.Rows.Count > 0) // admin
             {

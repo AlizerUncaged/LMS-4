@@ -75,6 +75,9 @@
     <Reference Include="OpenXmlPowerTools, Version=4.5.3.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\OpenXmlPowerTools.4.5.3.2\lib\net45\OpenXmlPowerTools.dll</HintPath>
     </Reference>
+    <Reference Include="SqlValidator">
+      <HintPath>..\..\..\Projects\SqlValidator\SqlValidator\bin\Debug\SqlValidator.dll</HintPath>
+    </Reference>
     <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
     </Reference>
@@ -2916,11 +2919,14 @@
     <Content Include="images\user.png" />
     <Content Include="images\xander.jpg" />
     <Content Include="aboutUs.aspx" />
+    <Content Include="Leaderboards.aspx" />
     <Content Include="NewLesson.aspx" />
     <Content Include="quizPage.aspx" />
     <Content Include="recordPage.aspx" />
     <Content Include="resultsPage.aspx" />
     <Content Include="showRecordPage.aspx" />
+    <Content Include="Suspended.aspx" />
+    <Content Include="SuspendStudents.aspx" />
     <Content Include="userProfile.aspx" />
     <Content Include="startPage.aspx" />
     <Content Include="LessonPage.aspx" />
@@ -3073,6 +3079,13 @@
       <DependentUpon>NewLesson.aspx</DependentUpon>
     </Compile>
     <Compile Include="Handlers\SqlInstance.cs" />
+    <Compile Include="Leaderboards.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Leaderboards.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Leaderboards.aspx.designer.cs">
+      <DependentUpon>Leaderboards.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -3130,6 +3143,20 @@
     </Compile>
     <Compile Include="MASTERPAGE.Master.designer.cs">
       <DependentUpon>MASTERPAGE.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Suspended.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Suspended.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Suspended.aspx.designer.cs">
+      <DependentUpon>Suspended.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SuspendStudents.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>SuspendStudents.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SuspendStudents.aspx.designer.cs">
+      <DependentUpon>SuspendStudents.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>

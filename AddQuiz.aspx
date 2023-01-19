@@ -14,6 +14,11 @@
         <div class="col-12">
             <form class="m-4" method="post">
                 <div class="form-group">
+                    <label for="lessonTitle">Quiz Id</label>
+                    <input autocomplete="off" name="quizId" value="<%= lessonId %>" type="text" id="quizId" class="form-control" aria-describedby="titleHelp">
+                    <small id="quizId" class="form-text text-muted">The quiz's title.</small>
+                </div>
+                <div class="form-group">
                     <label for="lessonTitle">Quiz Title</label>
                     <input autocomplete="off" name="title" value="<%= title %>" type="text" id="lessonTitle" class="form-control" aria-describedby="titleHelp">
                     <small id="titleHelp" class="form-text text-muted">The quiz's title.</small>
@@ -57,6 +62,29 @@
                 </div>
 
                 <div class="row m-2" id="questions">
+                    <% foreach (var q in quizQuestions)
+                       {
+                    %>
+                        <div class="row mb-4">
+                            <div class="form-group">
+                                <label>Question Title</label>
+                                <input value="<%= q.questiontext %>" autocomplete="off" name="question[][title]" type="text" class="form-control" aria-describedby="lcategory">
+                                <small class="form-text text-muted">Question title.</small>
+                            </div>
+                            <div class="form-group">
+                                <label>Answers</label>
+                                <input value="<%= q.optA %>,<%= q.optB %>, <%= q.optC %>, <%= q.optD %>"  autocomplete="off" name="question[][answers]" type="text" class="form-control" aria-describedby="lcategory">
+                                <small class="form-text text-muted">Answers separated by comma.</small>
+                            </div>
+                            <div class="form-group">
+                                <label>Correct Answer</label>
+                                <input value="<%= q.optCorrect %>" autocomplete="off" name="question[][correctAnswers]" type="text" class="form-control" aria-describedby="lcategory">
+                                <small class="form-text text-muted">The correct answer.</small>
+                            </div>
+                        </div>
+                    <%
+                       }
+                    %>
                     <div class="row mb-4" id="question">
                         <div class="form-group">
                             <label>Question Title</label>
