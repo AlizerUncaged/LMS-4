@@ -52,8 +52,5 @@
                 </div>
             <% } %>
         </div>
-        <div class="container">
-            <button onclick="PrintElem('printtable')" class="btn-primary btn rounded-1"><i class="bi bi-printer-fill"></i> Print</button>
-        </div>
     </form>
 </asp:Content>
