@@ -2924,6 +2924,7 @@
     <Content Include="quizPage.aspx" />
     <Content Include="recordPage.aspx" />
     <Content Include="resultsPage.aspx" />
+    <Content Include="Schema\techque_db.sql" />
     <Content Include="showRecordPage.aspx" />
     <Content Include="Suspended.aspx" />
     <Content Include="SuspendStudents.aspx" />

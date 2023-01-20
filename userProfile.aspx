@@ -39,7 +39,7 @@
                 <div class="form-outline p-1">
                     <label class="form-label" for="">E-MAIL</label>
                     <input type="text" name="email" ID="txtemailAddress" class="form-control form-control-lg" value="<%= Session["email"] %>"/>
-                    <% if (Request.Form["type"].ToString() != "admin")
+                    <% if (Session["type"].ToString() != "admin")
                        {
                     %>
                         <label class="form-label" for="">GENDER</label>
