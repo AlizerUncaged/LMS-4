@@ -4,14 +4,13 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <link href="bootstrap/css/bootstrap.css" rel="stylesheet"/>
+    
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" /> 
     <style>
         *{
-            min-height: 100%;
-            font-family: 'Fredoka', sans-serif '';
+        
         }
         body{
-           
             background: linear-gradient(177deg, rgba(255,255,255,1) 0%, rgba(108,116,221,1) 0%, rgba(66,49,185,1) 44%, rgba(43,18,120,1) 83%);
         }
         section{
@@ -38,15 +37,12 @@
         .form-check-input{
             padding-right: 15px;
         }
-
-       
-       
     </style>
 
 </head>
 <body>
 <form id="form1" runat="server">
-    <section class="vh-100 gradient-custom">
+    <section class="h-100 gradient-custom">
         <div class="container h-100">
             <div class="row justify-content-center align-items-center h-100">
                 <div class="col-12 col-lg-9 col-xl-7">

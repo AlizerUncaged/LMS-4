@@ -33,6 +33,9 @@ namespace HOME
 
             var DBCon = Handlers.SqlInstance.Instance;
 
+            var DBCon2 = Handlers.SqlInstance.Instance;
+
+            var DBCon3 = Handlers.SqlInstance.Instance;
             // Remove invalid quizzes with empty titles.
             string sql = "DELETE FROM quiz WHERE TRIM(title) = '' OR title IS NULL";
 
@@ -42,7 +45,7 @@ namespace HOME
             }
 
             // Remove invalid ``requiredLessons`` ids in ``quiz`` table.
-            sql = "SELECT requiredLessons FROM quiz";
+            sql = "SELECT * FROM quiz";
             using (MySqlCommand cmd = new MySqlCommand(sql, DBCon))
             {
                 using (MySqlDataReader reader = cmd.ExecuteReader())
@@ -50,30 +53,37 @@ namespace HOME
                     while (reader.Read())
                     {
                         string requiredLessons = reader.GetString("requiredLessons");
-                        string[] lessonIds = requiredLessons.Split(',');
-                        List<string> validLessonIds = new List<string>();
-                        for (int i = 0; i < lessonIds.Length; i++)
+                        var mainQuizId = reader.GetInt32("id");
+
+                        string[] lessonIds =
+                            requiredLessons.Split(',').Where(x => int.TryParse(x, out var _)).ToArray();
+                        
+                        if (lessonIds.Any())
                         {
-                            int lessonId = int.Parse(lessonIds[i]);
-                            string checkSql = "SELECT lessonId FROM new_lessons WHERE lessonId = @lessonId";
-                            using (MySqlCommand checkCmd = new MySqlCommand(checkSql, DBCon))
+                            List<string> validLessonIds = new List<string>();
+                            for (int i = 0; i < lessonIds.Length; i++)
                             {
-                                checkCmd.Parameters.AddWithValue("@lessonId", lessonId);
-                                int exists = Convert.ToInt32(checkCmd.ExecuteScalar());
-                                if (exists > 0)
+                                int lessonId = int.Parse(lessonIds[i]);
+                                string checkSql = "SELECT lessonId FROM new_lessons WHERE lessonId = @lessonId";
+                                using (MySqlCommand checkCmd = new MySqlCommand(checkSql, DBCon2))
                                 {
-                                    validLessonIds.Add(lessonIds[i]);
+                                    checkCmd.Parameters.AddWithValue("@lessonId", lessonId);
+                                    int exists = Convert.ToInt32(checkCmd.ExecuteScalar());
+                                    if (exists > 0)
+                                    {
+                                        validLessonIds.Add(lessonIds[i]);
+                                    }
                                 }
                             }
-                        }
 
-                        string updatedLessons = string.Join(",", validLessonIds);
-                        string updateSql = "UPDATE quiz SET requiredLessons = @updatedLessons WHERE id = @quizId";
-                        using (MySqlCommand updateCmd = new MySqlCommand(updateSql, DBCon))
-                        {
-                            updateCmd.Parameters.AddWithValue("@updatedLessons", updatedLessons);
-                            updateCmd.Parameters.AddWithValue("@quizId", reader.GetInt32("id"));
-                            updateCmd.ExecuteNonQuery();
+                            string updatedLessons = string.Join(",", validLessonIds);
+                            string updateSql = "UPDATE quiz SET requiredLessons = @updatedLessons WHERE id = @quizId";
+                            using (MySqlCommand updateCmd = new MySqlCommand(updateSql, DBCon3))
+                            {
+                                updateCmd.Parameters.AddWithValue("@updatedLessons", updatedLessons);
+                                updateCmd.Parameters.AddWithValue("@quizId", mainQuizId);
+                                updateCmd.ExecuteNonQuery();
+                            }
                         }
                     }
                 }

@@ -41,6 +41,7 @@ namespace HOME
                     Session["lastname"] = row["lastname"];
                     Session["gender"] = row["gender"];
                     Session["password"] = row["password"];
+                    Session["email"] = row["email"];
                     Session["suspended"] = false;
                     if (!DBNull.Value.Equals(row["is_suspended"]))
                     {
@@ -81,6 +82,7 @@ namespace HOME
                     Session["firstname"] = row2["firstname"];
                     Session["lastname"] = row2["lastname"];
                     Session["password"] = row2["password"];
+                    Session["email"] = row2["email"];
                     Session["pfpUrl"] = row2["pfpUrl"];
                 }
 

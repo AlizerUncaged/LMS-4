@@ -59,7 +59,6 @@ namespace HOME
             var DBCon = Handlers.SqlInstance.Instance;
 
 
-            DBCon.Open();
 
             string sql = "Select title FROM quiz WHERE id = '" + quiz + "'";
             MySqlCommand command = new MySqlCommand(sql, DBCon);

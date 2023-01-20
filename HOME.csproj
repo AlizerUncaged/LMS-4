@@ -15,12 +15,12 @@
     <RootNamespace>HOME</RootNamespace>
     <AssemblyName>HOME</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
-    <UseIISExpress>true</UseIISExpress>
+<!--    <UseIISExpress>true</UseIISExpress>-->
     <Use64BitIISExpress />
-    <IISExpressSSLPort>44395</IISExpressSSLPort>
-    <IISExpressAnonymousAuthentication />
-    <IISExpressWindowsAuthentication />
-    <IISExpressUseClassicPipelineMode />
+<!--    <IISExpressSSLPort>44395</IISExpressSSLPort>-->
+<!--    <IISExpressAnonymousAuthentication />-->
+<!--    <IISExpressWindowsAuthentication />-->
+<!--    <IISExpressUseClassicPipelineMode />-->
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
@@ -3246,7 +3246,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>51819</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>https://localhost:44395/</IISUrl>
+          <IISUrl>*:44395/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

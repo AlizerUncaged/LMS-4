@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
+using System.Dynamic;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -61,16 +62,20 @@ namespace HOME
                     makehtml += "<div class = 'category'>" + row +
                                 " <i class = 'fa-solid fa-arrow-right' onClick='qc_click(this.id)' id ='" +
                                 row +
-                                "'></i> <hr><div class ='quizTopicSec'><div class=\"swiper\"><div class=\"swiper-wrapper\">";
+                                "'></i> <hr><div class ='quizTopicSec'>" +
+                                "";
 
+                    // quizzes
+                    makehtml += "<div class=\"swiper\"><div class=\"swiper-wrapper\">";
                     foreach (DataRow row2 in dtQuiz.Rows)
                     {
-                        List<string> allLessonNames = new List<string>();
+                        List<dynamic> allRequiredLessons = new List<dynamic>();
 
                         if (row == row2["language"].ToString())
                         {
                             bool lessonsViewed = true;
 
+                            // required lessons check
                             if (row2["requiredLessons"] != null && row2["requiredLessons"] != DBNull.Value &&
                                 !string.IsNullOrWhiteSpace(row2["requiredLessons"].ToString()))
                             {
@@ -81,18 +86,48 @@ namespace HOME
                                         .Where(x => !string.IsNullOrWhiteSpace(x))
                                         .Select(int.Parse).ToList();
 
-                                allLessonNames = new List<string>();
-                                string _sql = "SELECT name FROM new_lessons WHERE lessonId = @lessonId";
+                                string _sql = "SELECT * FROM new_lessons WHERE lessonId = @lessonId";
 
-                                using (MySqlCommand cmd = new MySqlCommand(_sql, DBCon))
+
+                                for (int i = 0; i < requiredLessons.Count; i++)
                                 {
-                                    for (int i = 0; i < requiredLessons.Count; i++)
+                                    using (MySqlCommand _command = new MySqlCommand(_sql, DBCon))
                                     {
-                                        cmd.Parameters.AddWithValue("@lessonId", requiredLessons[i]);
+                                        _command.Parameters.AddWithValue("@lessonId", requiredLessons[i]);
+                                        using (MySqlDataReader reader = _command.ExecuteReader())
+                                        {
+                                            while (reader.Read())
+                                            {
+                                                int lessonId = 0;
+                                                string name = "";
+                                                string category = "";
+                                                string content = "";
+                                                try
+                                                {
+                                                    lessonId = reader.GetInt32("lessonId");
 
-                                        allLessonNames.Add(cmd.ExecuteScalar().ToString());
-                                        cmd.Parameters.Clear();
+                                                    name = reader.GetString("name");
+                                                    category = reader.GetString("category");
+                                                    content = reader.GetString("content");
+                                                }
+                                                catch
+                                                {
+                                                }
+
+                                                dynamic requiredLesson = new ExpandoObject();
+
+                                                requiredLesson.name = name;
+                                                requiredLesson.id = lessonId;
+                                                requiredLesson.category = category;
+                                                requiredLesson.content = content;
+
+                                                allRequiredLessons.Add(requiredLesson);
+                                            }
+                                        }
                                     }
+
+                                    // cmd.Parameters.AddWithValue("@lessonId", requiredLessons[i]);
+                                    //
                                 }
 
 
@@ -124,20 +159,27 @@ namespace HOME
                                 }
                             }
 
+                            string viewLessonButtons = "<div class='d-flex flex-wrap overflow-hidden' style='height: 150px'><div class=\"vertical-swiper\"> <div class=\"swiper-wrapper\">";
+                            foreach (dynamic requiredLesson in allRequiredLessons)
+                            {
+                                viewLessonButtons +=
+                                    $"<div class=\"swiper-slide\"><a class='btn btn-primary row m-2' data-bs-toggle='modal' data-bs-target='#lesson-modal'  onclick=\"setModal('{Base64Encode(requiredLesson.name)}', '{Base64Encode(requiredLesson.content)}', {requiredLesson.id}, 0, true)\"><i class=\"bi bi-book\"></i> {requiredLesson.name}</a></div>";
+                            }
+
+                            viewLessonButtons += "</div></div></div>";
+
                             string newline = "\n";
-                            string newlineDelimitedString = string.Join(newline, allLessonNames);
+                            string newlineDelimitedString =
+                                string.Join(newline, allRequiredLessons.Select(x => x.name));
                             string encodedString = Base64Encode(HttpUtility.HtmlEncode(newlineDelimitedString));
 
 
                             // makehtml += "<button type = 'button' >" + row2["title"].ToString()+"</button>";
                             makehtml +=
                                 $"<div class ='swiper-slide quizTopic' " +
-                                (lessonsViewed
-                                    ? "onClick='qt_click(this.id)' runat = 'server' id= "
-                                    : $"data-bs-toggle='modal' data-bs-target='#lesson-modal' onclick=\"setModal('{Base64Encode("You need to view the following lessons first.")}', '{encodedString}', 0, 0);\"") +
-                                " '" +
-                                row2["id"].ToString() +
-                                "'><div class='quizTopicCover'></div><div class = 'quizTopicTitle'>" +
+                                $">{viewLessonButtons}<div class = 'quizTopicTitle' "+    (lessonsViewed
+                                    ? "onClick='qt_click(this.id)' runat = 'server' id='" + row2["id"].ToString() + "'"
+                                    : $"data-bs-toggle='modal' data-bs-target='#lesson-modal' onclick=\"setModal('{Base64Encode("You need to view the following lessons first.")}', '{encodedString}', 0, 0, false);\"") +"><i class=\"bi bi-pencil-fill me-2\"></i>" +
                                 (!lessonsViewed ? "<i class=\"bi bi-lock-fill\"></i>" : string.Empty) +
                                 row2["title"].ToString() + "</div></div>";
                         }

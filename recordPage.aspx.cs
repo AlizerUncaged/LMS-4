@@ -3,6 +3,7 @@ using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Dynamic;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -12,43 +13,62 @@ namespace HOME
 {
     public partial class WebForm9 : System.Web.UI.Page
     {
-        public string makehtml = "";
-        MySqlConnection DBCon = new MySqlConnection("Data Source = localhost; username=root; password=; database=techque_db;");
+        public List<dynamic> actions = new List<dynamic>();
+
         protected void Page_Load(object sender, EventArgs e)
         {
-            string language = "", quiz = "";
-            DBCon.Open();
-            MySqlCommand cmd = new MySqlCommand("Select * FROM category", DBCon);
-            MySqlDataAdapter adapt = new MySqlDataAdapter(cmd);
-            DataTable dtCat = new DataTable();
-            adapt.Fill(dtCat);
-
-            MySqlCommand cmd2 = new MySqlCommand("Select * FROM quiz", DBCon);
-            MySqlDataAdapter adapt2 = new MySqlDataAdapter(cmd2);
-            DataTable dtQuiz = new DataTable();
-            adapt2.Fill(dtQuiz);
-
-            foreach (DataRow row in dtCat.Rows)
+            var currentUserId = Session["id"];
+            var connection = Handlers.SqlInstance.Instance;
+            using (var command = new MySqlCommand())
             {
-
-
-
-                makehtml += "<div class = 'category'> <h2>" + row["language"].ToString().ToUpper() + " </h2><hr><div class ='lessonTopicSec'>";
-
-                foreach (DataRow row2 in dtQuiz.Rows)
+                command.Connection = connection;
+                command.CommandText =
+                    "SELECT attempt_id, quiz_id, score, items, date FROM quizattempts WHERE userid = @userId";
+                command.Parameters.AddWithValue("@userId", currentUserId);
+                using (var reader = command.ExecuteReader())
                 {
-                    if (row["language"].ToString().ToLower() == row2["language"].ToString().ToLower())
+                    while (reader.Read())
                     {
-                        makehtml += "<input type = 'hidden' runat='server' class='topicContainer' ID='hdnfld' ClientIDMode='Static' value = '" + row2["title"].ToString() + "'> </input><div class = 'lessonTopic' onClick='qt_click(this.id)' runat = 'server' id= '" + row2["id"].ToString() + "'><div class='lessonTopicCover'></div><div class = 'lessonTopicTitle'>" + row2["title"].ToString() + "</div> </div>";
-
+                        dynamic attempt = new ExpandoObject();
+                        attempt.id = reader.GetInt32("attempt_id");
+                        attempt.quizId = reader.GetInt32("quiz_id");
+                        attempt.score = reader.GetString("score");
+                        attempt.items = reader.GetString("items");
+                        attempt.date = reader.GetString("date");
+                        actions.Add(attempt);
                     }
-}
-
-
-
-                makehtml += "</div></div>";
+                }
             }
 
+            foreach (dynamic action in actions)
+            {
+                var quizId = action.quizId.ToString();
+                
+                using (var command = new MySqlCommand())
+                {
+                    command.Connection = connection;
+                    command.CommandText = "SELECT id, language, title FROM quiz WHERE id = @quizId";
+                    command.Parameters.AddWithValue("@quizId", quizId);
+                    using (var reader = command.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            action.title = reader.GetString("title");
+                            action.language = reader.GetString("language");
+                            // var quiz = new
+                            // {
+                            //     Id = reader.GetInt32("id"),
+                            //     Language = reader.GetString("language"),
+                            //     Title =,
+                            // };
+                            // Do something with the quiz data
+                        }
+                    }
+                }
+                
+            }
+
+            // sned
         }
     }
 }

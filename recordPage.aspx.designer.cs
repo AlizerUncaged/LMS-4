@@ -13,5 +13,19 @@ namespace HOME
 
     public partial class WebForm9
     {
+
+        /// <summary>
+        /// Master property.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated property.
+        /// </remarks>
+        public new HOME.Site2 Master
+        {
+            get
+            {
+                return ((HOME.Site2)(base.Master));
+            }
+        }
     }
 }

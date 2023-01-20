@@ -1,10 +1,6 @@
 ﻿<%-- <%@ Page Title="" Language="C#" MasterPageFile="~/MASTERPAGE.Master" AutoEventWireup="true" CodeBehind="userProfile.aspx.cs" Inherits="HOME.WebForm3" %> --%>
-<%@ Page Title="" Language="C#" AutoEventWireup="true" CodeBehind="userProfile.aspx.cs" Inherits="HOME.WebForm3" %>
+<%@ Page Title="" Language="C#" AutoEventWireup="true" Inherits="HOME.userProfile" %>
 
-<%-- <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server"> --%>
-<%-- </asp:Content> --%>
-<%-- <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server"> --%>
-<%--      --%>
 <!DOCTYPE html>
 
 <html>
@@ -14,16 +10,16 @@
 </head>
 <body>
 <section>
-<%
-    string pfpUrl = "/images/user.png";
-    
-    if (Session["pfpUrl"] != null && Session["pfpUrl"] != DBNull.Value)
-    {
-        pfpUrl = (string)Session["pfpUrl"];
-    }
-    
-    Console.WriteLine(pfpUrl);
-%>
+    <%
+        string pfpUrl = "/images/user.png";
+
+        if (Session["pfpUrl"] != null && Session["pfpUrl"] != DBNull.Value && !string.IsNullOrWhiteSpace(Session["pfpUrl"].ToString()))
+        {
+            pfpUrl = (string)Session["pfpUrl"];
+        }
+
+        Console.WriteLine(pfpUrl);
+    %>
     <div class="vh-75">
         <div class="p-5 row">
             <div class="ml-5 how-img">
@@ -36,45 +32,43 @@
         </div>
     </div>
 </section>
-<div class="row">
-    <div class="col-sm">
-        <div class="card ml-3">
-            <div class="form-outline p-1">
-                <label class="form-label" for="">E-MAIL</label>
-                <input type="text" ID="txtemailAddress" class="form-control form-control-lg" disabled="disabled" Placeholder="<%= Session["username"] %>"/>
-
-                <label class="form-label" for="">GENDER</label>
-                <input type="text" ID="txtgender" class="form-control form-control-lg" disabled="disabled" Placeholder="<%= Session["gender"] %>"/>
-                <label class="form-label" for=""> PASSWORD</label>
-                <input type="password" ID="txtpass" class="form-control form-control-lg" disabled="disabled" value="<%= Session["password"] %>"/>
-
+<form method="post">
+    <div class="row">
+        <div class="container-fluid">
+            <div class="card ml-3">
+                <div class="form-outline p-1">
+                    <label class="form-label" for="">E-MAIL</label>
+                    <input type="text" name="email" ID="txtemailAddress" class="form-control form-control-lg" value="<%= Session["email"] %>"/>
+                    <% if (Request.Form["type"].ToString() != "admin")
+                       {
+                    %>
+                        <label class="form-label" for="">GENDER</label>
+                        <input name="gender" type="text" ID="txtgender" class="form-control form-control-lg" value="<%= Session["gender"] %>"/>
+                    <% }
+                    %>
+                    <label class="form-label" for=""> PASSWORD</label>
+                    <input name="password" type="password" ID="txtpass" class="form-control form-control-lg" value="<%= Session["password"] %>"/>
+                </div>
             </div>
-        </div>
-
-    </div>
-
-
-    <div class="col-sm">
-        <div class="card" style="width: 40%; padding: 10px">
-            CERTIFICATES
-
 
         </div>
     </div>
-</div>
-<div class="container row mt-2">
-    <% 
-        Console.WriteLine(Session["type"]);
-        if ((string)Session["type"] == "user")
-       { %>
-        <a class="btn btn-primary rounded-1" href="/HOMEPAGE">Back</a>
-    <% } %>
+    <div class="container row mt-2">
+        <%
+            Console.WriteLine(Session["type"]);
+            if ((string)Session["type"] == "user")
+            { %>
+            <a class="btn btn-primary rounded-1 m-3" href="/HOMEPAGE">Back</a>
+        <% } %>
 
-    <% if ((string)Session["type"] == "admin")
-       { %>
-        <a class="btn btn-primary rounded-1" href="/AdminHomePage">Back</a>
-    <% } %>
-</div>
+        <% if ((string)Session["type"] == "admin")
+           { %>
+            <a class="btn btn-primary rounded-1 m-3" href="/AdminHomePage">Back</a>
+        <% } %>
+
+        <button type="submit" class="btn btn-primary rounded-1 m-3">Save</button>
+    </div>
+</form>
 </body>
 </html>
 <%-- </asp:Content> --%>

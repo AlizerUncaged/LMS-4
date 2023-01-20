@@ -36,7 +36,7 @@
             <%
                 string pfpUrl = "/images/user.png";
 
-                if (Session["pfpUrl"] != null && Session["pfpUrl"] != DBNull.Value)
+                if (Session["pfpUrl"] != null && Session["pfpUrl"] != DBNull.Value && !string.IsNullOrWhiteSpace(Session["pfpUrl"].ToString()))
                 {
                     pfpUrl = (string)Session["pfpUrl"];
                 }
@@ -53,7 +53,6 @@
         <a href="CategoryPage.aspx">Lessons</a>
         <a href="recordPage.aspx">Records</a>
         <a href="Certificates.aspx">Certificates</a>
-        <a href="userProfile.aspx">Profile</a>
         <%-- <a href="accountSettings.aspx">Account Settings</a> --%>
         <a href="userProfile.aspx">User Profile</a>
         <a href="aboutUs.aspx">About</a>
