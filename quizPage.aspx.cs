@@ -7,11 +7,13 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Diagnostics;
+using System.Dynamic;
 using System.Linq;
 using System.Management.Automation;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using DocumentFormat.OpenXml.Office2010.ExcelAc;
 
 namespace HOME
 {
@@ -20,11 +22,12 @@ namespace HOME
         public string makehtml = "", intqid, answer;
         public static int i = 0, points = 0;
         public DataTable dtItems = new DataTable();
+        public List<dynamic> questions = new List<dynamic>();
 
         protected void Page_Load(object sender, EventArgs e)
         {
             var DBCon = Handlers.SqlInstance.Instance;
-      
+
 
             intqid = hdnfld_quizID.Text;
             MySqlCommand cmd = new MySqlCommand("Select * FROM quizquestions where quiz_id='" + intqid + "'", DBCon);
@@ -37,23 +40,48 @@ namespace HOME
                     answer = dtItems.Rows[i]["optCorrect"].ToString();
                     makehtml += "<div class = 'item'><div class='question'>" +
                                 dtItems.Rows[i]["questiontext"].ToString() + "</div>";
+                    {
 
-                    makehtml +=
-                        "<div class ='choices'><label class='radio'><div class='choiceA'><input runat ='server' type='radio' name='answer' value='" +
-                        dtItems.Rows[i]["optA"].ToString() + "' ID='optA'><span>A.) " +
-                        dtItems.Rows[i]["optA"].ToString() + "</div></span></label>";
-                    makehtml +=
-                        "<label class='radio'><div class='choiceB'><input runat ='server' type='radio' name='answer' value='" +
-                        dtItems.Rows[i]["optB"].ToString() + "' ID='opt'><span>B.) " +
-                        dtItems.Rows[i]["optB"].ToString() + "</div></span></label>";
-                    makehtml +=
-                        "<label class='radio'><div class='choiceC'><input runat ='server' type='radio' name='answer' value='" +
-                        dtItems.Rows[i]["optC"].ToString() + "' ID='optC'><span>C.) " +
-                        dtItems.Rows[i]["optC"].ToString() + "</div></span></label>";
-                    makehtml +=
-                        "<label class='radio'><div class='choiceD'><input runat ='server' type='radio' name='answer' value='" +
-                        dtItems.Rows[i]["optD"].ToString() + "' ID='optD'><span>D.) " +
-                        dtItems.Rows[i]["optD"].ToString() + "</div></span></label>";
+                        dynamic question = new ExpandoObject();
+                        question.question = dtItems.Rows[i]["optA"].ToString();
+                        questions.Add(question);
+                    }
+                    {
+
+
+                        dynamic question = new ExpandoObject();
+                        question.question = dtItems.Rows[i]["optB"].ToString();
+                        questions.Add(question);
+                    }
+                    {
+
+
+                        dynamic question = new ExpandoObject();
+                        question.question = dtItems.Rows[i]["optC"].ToString();
+                        questions.Add(question);
+                    }
+                    {
+                        dynamic question = new ExpandoObject();
+                        question.question = dtItems.Rows[i]["optD"].ToString();
+                        questions.Add(question);
+                    }
+
+                    // makehtml +=
+                    //     "<div class ='choices'><label class='radio'><div class='choiceA'><input runat ='server' type='radio' name='answer' value='" +
+                    //     dtItems.Rows[i]["optA"].ToString() + "' ID='optA'><span>A.) " +
+                    //     dtItems.Rows[i]["optA"].ToString() + "</span></label></div>";
+                    // makehtml +=
+                    //     "<label class='radio'><div class='choiceB'><input runat ='server' type='radio' name='answer' value='" +
+                    //     dtItems.Rows[i]["optB"].ToString() + "' ID='opt'><span>B.) " +
+                    //     dtItems.Rows[i]["optB"].ToString() + "</label></span></div>";
+                    // makehtml +=
+                    //     "<label class='radio'><div class='choiceC'><input runat ='server' type='radio' name='answer' value='" +
+                    //     dtItems.Rows[i]["optC"].ToString() + "' ID='optC'><span>C.) " +
+                    //     dtItems.Rows[i]["optC"].ToString() + "</span></label></div>";
+                    // makehtml +=
+                    //     "<label class='radio'><div class='choiceD'><input runat ='server' type='radio' name='answer' value='" +
+                    //     dtItems.Rows[i]["optD"].ToString() + "' ID='optD'><span>D.) " +
+                    //     dtItems.Rows[i]["optD"].ToString() + "</div></span></label>";
                 }
             }
 

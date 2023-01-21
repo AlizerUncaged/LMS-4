@@ -100,7 +100,7 @@
         }
     </style>
 
-    <div class="modal fade" tabindex="-1" id="lesson-modal">
+    <div class="modal fade" tabindex="-1" id="lesson-modal" data-backdrop="static" >
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">

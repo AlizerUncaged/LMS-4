@@ -37,16 +37,20 @@
         <div class="container-fluid">
             <div class="card ml-3">
                 <div class="form-outline p-1">
-                    <label class="form-label" for="">E-MAIL</label>
+                    <label class="form-label" for="">E-Mail</label>
                     <input type="text" name="email" ID="txtemailAddress" class="form-control form-control-lg" value="<%= Session["email"] %>"/>
                     <% if (Session["type"].ToString() != "admin")
                        {
                     %>
-                        <label class="form-label" for="">GENDER</label>
+                        <label class="form-label" for="">Gender</label>
                         <input name="gender" type="text" ID="txtgender" class="form-control form-control-lg" value="<%= Session["gender"] %>"/>
                     <% }
                     %>
-                    <label class="form-label" for=""> PASSWORD</label>
+                    
+                    <label class="form-label" for="asdasd">Profile Picture Url</label>
+                    <input name="pfpUrl" type="text" ID="asdasd" class="form-control form-control-lg" value="<%= Session["gender"] %>"/>
+
+                    <label class="form-label" for=""> Password</label>
                     <input name="password" type="password" ID="txtpass" class="form-control form-control-lg" value="<%= Session["password"] %>"/>
                 </div>
             </div>

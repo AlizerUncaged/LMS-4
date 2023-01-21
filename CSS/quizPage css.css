@@ -1,19 +1,22 @@
 ﻿* {
     font-family: Fredoka, sans serif;
 }
+
 .background {
 
-    background: linear-gradient(177deg, rgba(255,255,255,1) 0%, rgba(108,116,221,1) 0%, rgba(66,49,185,1) 44%, rgba(43,18,120,1) 83%);
+    background: linear-gradient(177deg, rgba(255, 255, 255, 1) 0%, rgba(108, 116, 221, 1) 0%, rgba(66, 49, 185, 1) 44%, rgba(43, 18, 120, 1) 83%);
     color: white;
 }
 
 body {
-    background: linear-gradient(177deg, rgba(255,255,255,1) 0%, rgba(108,116,221,1) 0%, rgba(66,49,185,1) 44%, rgba(43,18,120,1) 83%);
+    background: linear-gradient(177deg, rgba(255, 255, 255, 1) 0%, rgba(108, 116, 221, 1) 0%, rgba(66, 49, 185, 1) 44%, rgba(43, 18, 120, 1) 83%);
     color: white;
 }
-.item{
-    height:650px;
+
+.item {
+
 }
+
 .question {
     padding: 36px;
     padding-bottom: 20px;
@@ -22,60 +25,50 @@ body {
     text-align: center;
     font-size: 50px;
 }
+
 .choices {
     text-align: center;
     font-size: 30px;
-    height: 500px;
-    width: 90%;
     margin: auto;
 }
 
 .radio {
 }
-label.radio {
+
+div.radio {
     cursor: pointer;
+    background-color: #e6b555;
+    border-radius: 20px;
 }
 
-    label.radio input {
-        position: absolute;
-        top: 0;
-        left: 0;
-        visibility: hidden;
-        pointer-events: none;
-    }
+div.radio input {
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
 
-    label.radio span {
-        height: 180px;
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        width: 480px;
-        padding: 7px 14px;
-        float: left;
-        color: #242d3b;
-        border-radius: 20px;
-        background-color: #e6b555;
-        white-space: normal;
-        word-break: break-word;
-        display: flex;
-        align-items: center;
-        justify-content:center;
-    }
-        label.radio span:hover {
-            border-color: azure;
-            color: azure;
-            box-shadow: 0 5px 15px rgba(222, 202, 142, .5);
-        }
+div.radio span {
+    height: 180px;
+    color: #242d3b;
+}
 
-    label.radio input:checked + span {
-        border-color: azure;
-        color: azure;
-        box-shadow: 0 5px 15px rgba(222, 202, 142, .5);
-    }
+div.radio span:hover {
+    border-color: azure;
+    color: azure;
+    box-shadow: 0 5px 15px rgba(222, 202, 142, .5);
+}
+
+div.radio input:checked + span {
+    border-color: azure;
+    color: azure;
+    box-shadow: 0 5px 15px rgba(222, 202, 142, .5);
+}
+
 form {
-    height:700px;
+    height: 700px;
 }
+
 .Submit {
     position: absolute;
     color: azure;
@@ -88,7 +81,9 @@ form {
     background-color: #534391;
     border-radius: 20px;
 }
+
 .Submit:hover {
     box-shadow: 0 7px 15px rgba(55, 52, 99, .3);
 }
+
 }

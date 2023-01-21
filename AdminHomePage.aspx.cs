@@ -38,6 +38,20 @@ namespace HOME
             if (Request.QueryString["action"] != null && Request.QueryString["action"] == "delete" &&
                 Request.QueryString["quizId"] != null)
             {
+                sql = "DELETE FROM quizattempts WHERE quiz_id = @quizId";
+                using (MySqlCommand cmd = new MySqlCommand(sql, dbCon))
+                {
+                    cmd.Parameters.AddWithValue("@quizId", Request.QueryString["quizId"]);
+                    cmd.ExecuteNonQuery();
+                }
+                
+                sql = "DELETE FROM quizquestions WHERE quiz_id = @quizId";
+                using (MySqlCommand cmd = new MySqlCommand(sql, dbCon))
+                {
+                    cmd.Parameters.AddWithValue("@quizId", Request.QueryString["quizId"]);
+                    cmd.ExecuteNonQuery();
+                }
+                
                 sql = "DELETE FROM quiz WHERE id = @quizId";
                 using (MySqlCommand cmd = new MySqlCommand(sql, dbCon))
                 {
@@ -66,9 +80,9 @@ namespace HOME
                         makehtml +=
                             "<div class = 'quizTopic' onClick='qtRecords_click(this.id)' runat = 'server' id= '" +
                             row2["id"].ToString() +
-                            $"'><div class='quizTopicCover'><i href='?quizId={row2["id"]}&action=delete' class = 'fa-solid fa-trash-can fa-2xs'  id ='" +
+                            $"'><div class='quizTopicCover'><a href='?quizId={row2["id"]}&action=delete'><i  class = 'fa-solid fa-trash-can fa-2xs'  id ='" +
                             row2["id"].ToString() +
-                            $"tc'></i><a class='m-2' href='/Leaderboards?quizId={row2["id"]}'><i class = 'bi bi-trophy-fill text-success'  id ='" +
+                            $"tc'></i></a><a class='m-2' href='/Leaderboards?quizId={row2["id"]}'><i class = 'bi bi-trophy-fill text-success'  id ='" +
                             row2["id"].ToString() +
                             $"et'></i></a><a class='m-2' href='/AddQuiz?editQuizId={row2["id"]}'><i class=\"bi bi-pencil-square\"></i></a></div><div class = 'quizTopicTitle'>" +
                             row2["title"].ToString() + "</div> </div>";

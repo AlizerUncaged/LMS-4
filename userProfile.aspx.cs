@@ -20,6 +20,7 @@ namespace HOME
                 var email = Request.Form["emails"];
                 var gender = Request.Form["gender"];
                 var password = Request.Form["password"];
+                var pfpUrl = Request.Form["pfpUrl"];
                 var userId = Session["id"].ToString();
 
                 if (Request.Form["type"].ToString() == "admin")
@@ -27,11 +28,12 @@ namespace HOME
                     {
                         command.Connection = DBCon;
                         command.CommandText =
-                            "UPDATE admin_user SET email = @email, password = @password WHERE id = @userId";
+                            "UPDATE admin_user SET email = @email, password = @password, pfpUrl = @pfpUrl WHERE id = @userId";
                         command.Parameters.AddWithValue("@email", email);
                         command.Parameters.AddWithValue("@password", password);
                         command.Parameters.AddWithValue("@gender", gender);
                         command.Parameters.AddWithValue("@userId", userId);
+                        command.Parameters.AddWithValue("@pfpUrl", pfpUrl);
                         command.ExecuteNonQuery();
                     }
                 else
@@ -39,11 +41,12 @@ namespace HOME
                     {
                         command.Connection = DBCon;
                         command.CommandText =
-                            "UPDATE users SET email = @email, password = @password, gender = @gender WHERE user_id = @userId";
+                            "UPDATE users SET email = @email, password = @password, gender = @gender, pfpUrl = @pfpUrl WHERE user_id = @userId";
                         command.Parameters.AddWithValue("@email", email);
                         command.Parameters.AddWithValue("@password", password);
                         command.Parameters.AddWithValue("@gender", gender);
                         command.Parameters.AddWithValue("@userId", userId);
+                        command.Parameters.AddWithValue("@pfpUrl", pfpUrl);
                         command.ExecuteNonQuery();
                     }
             }

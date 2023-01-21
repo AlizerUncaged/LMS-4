@@ -15,7 +15,7 @@
             <form class="m-4" method="post">
                 <div class="form-group">
                     <label for="lessonTitle">Quiz Id</label>
-                    <input autocomplete="off" name="quizId" value="<%= lessonId %>" type="text" id="quizId" class="form-control" aria-describedby="titleHelp">
+                    <input autocomplete="off" readonly="readonly" name="quizId" value="<%= lessonId %>" type="text" id="quizId" class="form-control" aria-describedby="titleHelp">
                     <small id="quizId" class="form-text text-muted">The quiz's title.</small>
                 </div>
                 <div class="form-group">
@@ -73,7 +73,7 @@
                             </div>
                             <div class="form-group">
                                 <label>Answers</label>
-                                <input value="<%= q.optA %>,<%= q.optB %>, <%= q.optC %>, <%= q.optD %>"  autocomplete="off" name="question[][answers]" type="text" class="form-control" aria-describedby="lcategory">
+                                <input value="<%= q.optA %>,<%= q.optB %>, <%= q.optC %>, <%= q.optD %>" autocomplete="off" name="question[][answers]" type="text" class="form-control" aria-describedby="lcategory">
                                 <small class="form-text text-muted">Answers separated by comma.</small>
                             </div>
                             <div class="form-group">

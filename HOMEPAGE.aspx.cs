@@ -159,11 +159,11 @@ namespace HOME
                                 }
                             }
 
-                            string viewLessonButtons = "<div class='d-flex flex-wrap overflow-hidden' style='height: 150px'><div class=\"vertical-swiper\"> <div class=\"swiper-wrapper\">";
+                            string viewLessonButtons = "<div class='d-flex flex-wrap overflow-hidden' style='height: 150px'><div class=\"vertical-swiper\"> <div class=\"d-flex flex-column\">";
                             foreach (dynamic requiredLesson in allRequiredLessons)
                             {
                                 viewLessonButtons +=
-                                    $"<div class=\"swiper-slide\"><a class='btn btn-primary row m-2' data-bs-toggle='modal' data-bs-target='#lesson-modal'  onclick=\"setModal('{Base64Encode(requiredLesson.name)}', '{Base64Encode(requiredLesson.content)}', {requiredLesson.id}, 0, true)\"><i class=\"bi bi-book\"></i> {requiredLesson.name}</a></div>";
+                                    $"<div class=\"\"><a class='btn btn-primary row m-2' data-bs-toggle='modal' data-bs-target='#lesson-modal'  onclick=\"setModal('{Base64Encode(requiredLesson.name)}', '{Base64Encode(requiredLesson.content)}', {requiredLesson.id}, 0, true)\"><i class=\"bi bi-book\"></i> {requiredLesson.name}</a></div>";
                             }
 
                             viewLessonButtons += "</div></div></div>";
@@ -179,7 +179,7 @@ namespace HOME
                                 $"<div class ='swiper-slide quizTopic' " +
                                 $">{viewLessonButtons}<div class = 'quizTopicTitle' "+    (lessonsViewed
                                     ? "onClick='qt_click(this.id)' runat = 'server' id='" + row2["id"].ToString() + "'"
-                                    : $"data-bs-toggle='modal' data-bs-target='#lesson-modal' onclick=\"setModal('{Base64Encode("You need to view the following lessons first.")}', '{encodedString}', 0, 0, false);\"") +"><i class=\"bi bi-pencil-fill me-2\"></i>" +
+                                    : $"data-bs-toggle='modal' data-bs-target='#lesson-modal' style='cursor: pointer' onclick=\"setModal('{Base64Encode("You need to view the following lessons first.")}', '{encodedString}', 0, 0, false);\"") +"><i class=\"bi bi-pencil-fill me-2\"></i>" +
                                 (!lessonsViewed ? "<i class=\"bi bi-lock-fill\"></i>" : string.Empty) +
                                 row2["title"].ToString() + "</div></div>";
                         }
